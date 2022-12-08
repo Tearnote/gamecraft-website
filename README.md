@@ -50,3 +50,28 @@ In particular, the commonly seen page sections are:
  - Why would I want to switch from my current workflow to this?
  - Do I get timely support if I encounter a bug?
  - Where can I go in-depth on specific features?
+
+## Project scope
+
+To satisfy the target users, these goals are essential:
+
+ - Clear navigation to all pages of the site,
+ - An eye-catching above-the-fold experience inviting the user to find out more,
+ - A list of features that focuses on the product being friendly and intuitive,
+ - A way to immediately download the product installer,
+ - A section with successful projects made with the product to showcase its capabilities,
+ - Transparent pricing details,
+ - Links to any supplementary resources,
+ - Modern, responsive, compliant and accessible design.
+
+These goals are not neccessary for a MVP, but would provide additional value:
+
+ - A preview of the asset store, showing some of the content available inside the product,
+ - Simple CSS transitions and animations to make the site more attractive and enjoyable to navigate,
+ - Light image editing to improve consistency of the design.
+
+The project is subject to these limitations:
+
+ - The site will use only HTML and CSS (not Javascript), so complex interactive widgets won't be possible,
+ - Gamecraft is a fictional product, so images of features and projects must be replaced with stock alternatives,
+ - The project must be finished in two weeks, so not all planned features might make it in.
