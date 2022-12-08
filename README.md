@@ -91,3 +91,11 @@ The site will also link to a large number of resources which are not included in
 ![Wireframe of the features section of the frontpage](doc/home-features.png)
 ![Wireframe of the projects showcase on the frontpage](doc/home-projects.png)
 ![Wireframe of the frontpage footer section](doc/home-footer.png)
+
+### Asset store
+
+![Wireframe of the asset store](doc/asset-store.png)
+
+### Pricing
+
+![Wireframe of the pricing page](doc/pricing.png)
