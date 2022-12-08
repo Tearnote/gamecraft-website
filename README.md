@@ -72,6 +72,12 @@ These goals are not neccessary for a MVP, but would provide additional value:
 
 The project is subject to these limitations:
 
- - The site will use only HTML and CSS (not Javascript), so complex interactive widgets won't be possible,
+ - The site will use only HTML and CSS (not Javascript,) so complex interactive widgets won't be possible,
  - Gamecraft is a fictional product, so images of features and projects must be replaced with stock alternatives,
  - The project must be finished in two weeks, so not all planned features might make it in.
+
+## Site structure
+
+To fit with the industry standard researched [above](#market-research), the site should mirror the structure of competing products. That is to say, the general structure is hub-and-spoke, with the frontpage serving as the main source of information, providing the user with product details, in order from a general overview to more specific as they scroll from top to bottom. Any section the user might want to know even more about links to a separage page which goes into extreme detail on the single specific feature.
+
+The site will also link to a large number of resources which are not included in the portfolio website, such as the documentation, social media, forums, etc. These links are mock-up content, so they will be present and non-functional (but not broken.) They will be visually marked to make it obvious that the destination is not part of the portfolio project.
