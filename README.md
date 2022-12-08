@@ -67,6 +67,7 @@ To satisfy the target users, these goals are essential:
 These goals are not neccessary for a MVP, but would provide additional value:
 
  - A preview of the asset store, showing some of the content available inside the product,
+ - A support page, linking all the ways the user can get help with the product,
  - Simple CSS transitions and animations to make the site more attractive and enjoyable to navigate,
  - Light image editing to improve consistency of the design.
 
@@ -81,3 +82,12 @@ The project is subject to these limitations:
 To fit with the industry standard researched [above](#market-research), the site should mirror the structure of competing products. That is to say, the general structure is hub-and-spoke, with the frontpage serving as the main source of information, providing the user with product details, in order from a general overview to more specific as they scroll from top to bottom. Any section the user might want to know even more about links to a separage page which goes into extreme detail on the single specific feature.
 
 The site will also link to a large number of resources which are not included in the portfolio website, such as the documentation, social media, forums, etc. These links are mock-up content, so they will be present and non-functional (but not broken.) They will be visually marked to make it obvious that the destination is not part of the portfolio project.
+
+## Wireframes
+
+### Home
+
+![Wireframe of the top of the frontpage](doc/home-landing.png)
+![Wireframe of the features section of the frontpage](doc/home-features.png)
+![Wireframe of the projects showcase on the frontpage](doc/home-projects.png)
+![Wireframe of the frontpage footer section](doc/home-footer.png)
