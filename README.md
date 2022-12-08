@@ -4,7 +4,7 @@ This is a static website for a fictional videogame creation tool called *Gamecra
 
 ## Motivation
 
-Most people who play videogames want to create one themselves at some point. However, the need to learn a programming language and use complicated engines discourages the majority of them from ever giving it a try. Even tools meant for less technical users often overwhelm beginners with countless menus and buttons, and can only be deciphered through persistence and video tutorials. There is a market gap for a program which focuses on learnability as its core principle, and this is the gap that Gamecraft aims to fill.
+Most people who play videogames want to create one themselves at some point. However, the need to learn a programming language and use complicated engines discourages the majority of them from ever giving it a try. Even tools meant for less technical users often overwhelm beginners with countless menus and buttons, and can only be deciphered through persistence and video tutorials. There is a market gap for a program which focuses on learnability as its core principle, and this is the gap that Gamecraft aims to fill. This needs to be accomplished without sacrificing the feature set or reducing attractiveness to more experienced creators.
 
 ## Market research
 
@@ -30,3 +30,23 @@ In particular, the commonly seen page sections are:
  - Pricing and licensing details split into product tiers with a feature matrix,
  - Links to community resources,
  - Large, non-sticky footer with more detailed navigation and business / legal details.
+
+## User stories
+
+> *As a non-technical person and an aspiring videogame creator, I want to find the best engine out there so that I can create my dream game with no frustration.*
+
+ - Can I make a videogame in this?
+ - Is it going to be as confusing as the others?
+ - Do I need to make my own graphics and sounds?
+ - How much does it cost?
+ - If I finish my game, can I sell it?
+ - What do I do if I'm stuck with a problem?
+ - How do I get started? Should I follow any tutorial alongside it?
+
+> *As an experienced videogame designer, I'm looking for better game creation workflows so that I can improve my productivity.*
+
+ - Is this a serious product?
+ - Can you make something complex and professional looking in this?
+ - Why would I want to switch from my current workflow to this?
+ - Do I get timely support if I encounter a bug?
+ - Where can I go in-depth on specific features?
