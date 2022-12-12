@@ -103,3 +103,11 @@ The site will also link to a large number of resources which are not included in
 ### Support
 
 ![Wireframe of the support page](doc/support.png)
+
+## Design language
+
+The majority of the site will use bright text on a dark background, which inspires confidence as it's the typical color scheme in productivity software. However, some sections of the site might invert this to accent a non-technical section, such as user support.
+
+The color palette needs to feel pleasant and welcoming, to contrast the more clinical and professional feel of the competition. This can be achieved with warm, pastel colors. Here is the primary palette for the site:
+
+![A palette of four colors](doc/palette.png)
