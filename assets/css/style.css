@@ -41,11 +41,13 @@ a:visited {
 
 /* #endregion */
 
-/* #region Default fonts */
+/* #region Site-wide defaults */
 
 body {
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
+	background: rgb(8, 8, 16);
+	color: white;
 }
 
 h1,
@@ -58,13 +60,8 @@ h6 {
 	font-weight: 600;
 }
 
-/* #endregion */
-
-/* #region Default colors */
-
-body {
-	background: rgb(8, 8, 16);
-	color: white;
+a[href="#"] {
+	cursor: not-allowed;
 }
 
 /* #endregion */
