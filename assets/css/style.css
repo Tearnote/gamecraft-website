@@ -70,9 +70,9 @@ button {
 	font-size: 1.5rem;
 	font-weight: 700;
 	padding: 0.5rem 2rem;
-	background-color: #d99748;
+	background: #d99748 padding-box;
 	color: #080810;
-	border: 2px solid transparent;
+	border: 3px solid transparent;
 	border-radius: 0.4rem;
 }
 
@@ -81,7 +81,7 @@ button:hover {
 }
 
 button:focus {
-	border: 2px solid #d99748;
+	border: 3px solid rgba(191, 104, 54, 0.7);
 }
 
 a > button {
