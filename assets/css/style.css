@@ -69,18 +69,23 @@ button {
 	font-family: "Poppins", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
-	padding: .5rem 2rem;
-	background-color: #e67f6a;
+	padding: 0.5rem 2rem;
+	background-color: #d99748;
 	color: #080810;
-	border-radius: .4rem;
+	border: 2px solid transparent;
+	border-radius: 0.4rem;
 }
 
 button:hover {
-	background-color: #bd6958;
+	background-color: #bf6836;
 }
 
 button:focus {
-	border: 2px solid #56423e;
+	border: 2px solid #d99748;
+}
+
+a > button {
+	cursor: pointer;
 }
 
 .labelled-button {
@@ -135,8 +140,8 @@ nav > ul {
 
 nav > ul > li {
 	display: inline-block;
-	padding: 0 .5rem;
-	margin: 0 .1rem;
+	padding: 0 0.5rem;
+	margin: 0 0.1rem;
 }
 
 nav > ul > li > a {
@@ -150,11 +155,11 @@ nav li:hover {
 }
 
 nav li.active {
-	border-bottom: 2px solid #e67f6a;
+	border-bottom: 2px solid #d99748;
 }
 
 nav .active > a {
-	color: #e67f6a;
+	color: #d99748;
 }
 
 /* #endregion */
@@ -164,8 +169,8 @@ nav .active > a {
 #hero {
 	height: 80vh;
 	display: flex;
-	background: url(../images/hero.jpg) center/cover fixed, #bd6958;
-	background-blend-mode: multiply;
+	background: url(../images/hero.jpg) center/cover fixed, rgba(0, 0, 0, 0.6);
+	background-blend-mode: overlay;
 	flex-direction: column;
 	justify-content: center;
 	padding: 0 8vw;
@@ -173,14 +178,23 @@ nav .active > a {
 	z-index: 1;
 }
 
+#hero > * {
+	border-left: 1rem solid white;
+	padding-left: 1rem;
+}
+
 #hero > h1 {
 	font-size: 6rem;
-	line-height: 1.2;
+	line-height: 1;
 }
 
 #hero > h2 {
 	font-size: 2.5rem;
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+}
+
+#hero > .labelled-button {
+	padding-bottom: 1rem;
 }
 
 /* #endregion */
