@@ -114,6 +114,12 @@ The color palette needs to feel pleasant and welcoming, to contrast the more cli
 
 Similarly, the font needs to be clear and inviting. The headers will use [Poppins SemiBold 600](https://fonts.google.com/specimen/Poppins) for its simple geometric forms, and the main content will use the highly legible [Quicksand Regular 400](https://fonts.google.com/specimen/Quicksand), which contrasts it with a thinner weight and friendly rounded strokes.
 
+## Bugs
+
+ - Cannot hide the header logo behind the hero image on the main page.
+   
+   Resolved by duplicating the logo outside of the `<header>` element, which created a new stacking context because of its `position: fixed` attribute. Sibling element selector is used to hide the other logo when the duplicate logo is present, keeping the `<header>` element identical on every page.
+
 ## Attribution
 
 [Hero image](assets/images/hero.jpg): Image by [Patricio González]("https://pixabay.com/users/patolenin-991181/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6741424") from [Pixabay]("https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6741424")

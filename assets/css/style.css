@@ -101,14 +101,26 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	z-index: 2;
 }
 
-header > h1 {
+.main-logo {
+	position: fixed;
+}
+
+/* Hide the logo inside the header when the duplicate one is present */
+.main-logo + header > h1 {
+	visibility: hidden;
+}
+
+header > h1,
+.main-logo {
 	margin-left: 1rem;
 	font-size: 2.5rem;
 }
 
-header > h1 > a {
+header > h1 > a,
+.main-logo > a {
 	text-decoration: none;
 }
 
@@ -157,6 +169,8 @@ nav .active > a {
 	flex-direction: column;
 	justify-content: center;
 	padding: 0 8vw;
+	position: relative;
+	z-index: 1;
 }
 
 #hero > h1 {
