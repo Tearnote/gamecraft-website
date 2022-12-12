@@ -46,7 +46,7 @@ a:visited {
 body {
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
-	background: rgb(8, 8, 16);
+	background: #080810;
 	color: white;
 }
 
@@ -60,8 +60,38 @@ h6 {
 	font-weight: 600;
 }
 
+/* Highlight intentionally unavailable links */
 a[href="#"] {
 	cursor: not-allowed;
+}
+
+button {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding: .5rem 2rem;
+	background-color: #e67f6a;
+	color: #080810;
+	border-radius: .4rem;
+}
+
+button:hover {
+	background-color: #bd6958;
+}
+
+button:focus {
+	border: 2px solid #56423e;
+}
+
+.labelled-button {
+	display: flex;
+	width: max-content;
+	flex-direction: column;
+	align-items: center;
+}
+
+.labelled-button > p {
+	opacity: 0.6;
 }
 
 /* #endregion */
@@ -129,6 +159,16 @@ nav .active > a {
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 8vw;
+}
+
+#hero > h1 {
+	font-size: 6rem;
+	line-height: 1.2;
+}
+
+#hero > h2 {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
 }
 
 /* #endregion */
