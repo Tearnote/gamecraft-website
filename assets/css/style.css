@@ -194,6 +194,7 @@ nav .active > a {
 }
 
 #hero > .labelled-button {
+	padding-left: 2rem;
 	padding-bottom: 1rem;
 }
 
