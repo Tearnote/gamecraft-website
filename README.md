@@ -110,7 +110,7 @@ The majority of the site will use bright text on a dark background, which inspir
 
 The color palette needs to feel pleasant and welcoming, to contrast the more clinical and professional feel of the competition. This can be achieved with warm, pastel colors. Here is the primary palette for the site:
 
-![A palette of four colors](doc/palette.png)
+![A palette of five colors](doc/palette.png)
 
 Similarly, the font needs to be clear and inviting. The headers will use [Poppins SemiBold 600](https://fonts.google.com/specimen/Poppins) for its simple geometric forms, and the main content will use the highly legible [Quicksand Regular 400](https://fonts.google.com/specimen/Quicksand), which contrasts it with a thinner weight and friendly rounded strokes.
 
