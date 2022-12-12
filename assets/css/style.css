@@ -90,10 +90,6 @@ button:focus {
 	align-items: center;
 }
 
-.labelled-button > p {
-	opacity: 0.6;
-}
-
 /* #endregion */
 
 /* #region Header */
@@ -156,9 +152,11 @@ nav .active > a {
 #hero {
 	height: 80vh;
 	display: flex;
+	background: url(../images/hero.jpg) center/cover fixed, #bd6958;
+	background-blend-mode: multiply;
 	flex-direction: column;
 	justify-content: center;
-	padding-left: 8vw;
+	padding: 0 8vw;
 }
 
 #hero > h1 {
