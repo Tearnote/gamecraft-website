@@ -99,3 +99,7 @@ The site will also link to a large number of resources which are not included in
 ### Pricing
 
 ![Wireframe of the pricing page](doc/pricing.png)
+
+### Support
+
+![Wireframe of the support page](doc/support.png)
