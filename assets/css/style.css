@@ -35,6 +35,10 @@ select {
 	font: inherit;
 }
 
+a:visited {
+	color: inherit;
+}
+
 /* #endregion */
 
 /* #region Default fonts */
@@ -69,12 +73,20 @@ body {
 
 header {
 	position: fixed;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 }
 
 header > h1 {
-	float: left;
+	margin-left: 1rem;
 	font-size: 2.5rem;
+}
+
+header > h1 > a {
+	text-decoration: none;
 }
 
 nav {
@@ -98,7 +110,11 @@ nav > ul > li > a {
 	text-decoration: none;
 }
 
-nav .active {
+nav li:hover {
+	border-bottom: 2px solid white;
+}
+
+nav li.active {
 	border-bottom: 2px solid #e67f6a;
 }
 
