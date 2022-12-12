@@ -120,3 +120,15 @@ nav .active > a {
 }
 
 /* #endregion */
+
+/* #region Hero */
+
+#hero {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 8vw;
+}
+
+/* #endregion */
