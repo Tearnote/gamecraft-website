@@ -91,7 +91,8 @@ p > a:visited {
 }
 
 /* Highlight intentionally unavailable links */
-a[href="#"] {
+a[href="#"],
+a[href="#"] > button {
 	cursor: not-allowed;
 }
 
