@@ -95,6 +95,15 @@ a > button {
 	align-items: center;
 }
 
+.icon {
+	display: inline;
+	width: 1.25em;
+	height: 1.25em;
+	position: relative;
+	top: .25em;
+	right: .25em;
+}
+
 /* #endregion */
 
 /* #region Header */
