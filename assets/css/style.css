@@ -147,23 +147,12 @@ header {
 	z-index: 2;
 }
 
-.main-logo {
-	position: fixed;
-}
-
-/* Hide the logo inside the header when the duplicate one is present */
-.main-logo + header > h1 {
-	visibility: hidden;
-}
-
-header > h1,
-.main-logo {
+header > h1 {
 	margin-left: 1rem;
 	font-size: 2.5rem;
 }
 
-header > h1 > a,
-.main-logo > a {
+header > h1 > a {
 	text-decoration: none;
 }
 
