@@ -81,6 +81,10 @@ h3 {
 	right: 0.25em;
 }
 
+a {
+	color: inherit;
+}
+
 /* Links inside copy text only */
 p > a,
 p > a:visited {
