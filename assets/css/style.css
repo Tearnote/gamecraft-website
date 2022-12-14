@@ -46,7 +46,7 @@ body {
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
 	background: #080810;
-	color: white;
+	color: #efeff8;
 }
 
 h1,
@@ -85,13 +85,20 @@ a {
 	color: inherit;
 }
 
-/* Links inside copy text only */
 p > a,
 p > a:visited {
-	color: #41bf54;
+	color: #40ff5d;
 	/* Move the underline lower by replacing it with a border */
 	text-decoration: none;
-	border-bottom: 1px solid #41bf54;
+	border-bottom: 1px solid #40ff5d;
+}
+
+p > a:hover,
+p > a:visited:hover {
+	color: #00ca28;
+	/* Move the underline lower by replacing it with a border */
+	text-decoration: none;
+	border-bottom: 1px solid #00ca28;
 }
 
 /* Highlight intentionally unavailable links */
@@ -105,18 +112,18 @@ button {
 	font-size: 1.5rem;
 	font-weight: 700;
 	padding: 0.5rem 2rem;
-	background: #d99748 padding-box;
+	background: #ffa73b padding-box;
 	color: #080810;
-	border: 3px solid transparent;
+	border: 4px solid transparent;
 	border-radius: 0.4rem;
 }
 
 button:hover {
-	background-color: #bf6836;
+	background-color: #c77800;
 }
 
 button:focus {
-	border: 3px solid rgba(191, 104, 54, 0.7);
+	border: 4px solid rgba(199, 120, 0, 0.6);
 }
 
 a > button {
@@ -143,8 +150,8 @@ header {
 	width: 100%;
 	background: linear-gradient(
 		180deg,
-		rgba(0, 0, 0, 1) 0%,
-		rgba(0, 0, 0, 0) 100%
+		rgba(8, 8, 16, 1) 0%,
+		rgba(8, 8, 16, 0.4) 100%
 	);
 	z-index: 2;
 }
@@ -175,20 +182,20 @@ nav > ul > li {
 
 nav > ul > li > a {
 	font-size: 1.4rem;
-	color: white;
+	color: #efeff8;
 	text-decoration: none;
 }
 
 nav > ul > :hover {
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid #efeff8;
 }
 
 nav > ul > .active {
-	border-bottom: 2px solid #d99748;
+	border-bottom: 2px solid #ffa73b;
 }
 
 nav > ul > .active > a {
-	color: #d99748;
+	color: #ffa73b;
 	font-weight: 700;
 }
 
@@ -209,7 +216,7 @@ nav > ul > .active > a {
 }
 
 #hero > * {
-	border-left: 1rem solid white;
+	border-left: 1rem solid #efeff8;
 	padding-left: 1rem;
 }
 
@@ -261,12 +268,12 @@ nav > ul > .active > a {
 }
 
 #features > figure:nth-child(odd) > figcaption > * {
-	border-left: 6px solid white;
+	border-left: 6px solid #efeff8;
 	padding-left: 1rem;
 }
 
 #features > figure:nth-child(even) > figcaption > * {
-	border-right: 6px solid white;
+	border-right: 6px solid #efeff8;
 	padding-right: 1rem;
 }
 
@@ -288,7 +295,7 @@ nav > ul > .active > a {
 }
 
 .section-title {
-	border-left: 6px solid white;
+	border-left: 6px solid #efeff8;
 	padding-left: 1rem;
 	padding-bottom: 3rem;
 	margin-top: 2rem;
@@ -347,7 +354,7 @@ nav > ul > .active > a {
 	flex-direction: column;
 	align-items: center;
 	padding-top: 4rem;
-	background-color: #f8f8ef;
+	background-color: #efeff8;
 	color: #080810;
 }
 
@@ -358,9 +365,17 @@ nav > ul > .active > a {
 	padding: 0 1rem 1rem;
 }
 
-#download > p > a {
-	color: #37a647;
-	border-bottom: 1px solid #37a647;
+#download > p > a,
+#download > p > a:visited
+ {
+	color: #005e0c;
+	border-bottom: 1px solid #005e0c;
+}
+
+#download > p > a:hover,
+#download > p > a:visited:hover {
+	color: #3f8c3a;
+	border-bottom: 1px solid #3f8c3a;
 }
 
 #download > .labelled-button {

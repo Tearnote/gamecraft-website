@@ -110,9 +110,24 @@ The site will also link to a large number of resources which are not included in
 
 The majority of the site will use bright text on a dark background, which inspires confidence as it's the typical color scheme in productivity software. However, some sections of the site might invert this to accent a non-technical section, such as user support.
 
-The color palette needs to feel pleasant and welcoming, to contrast the more clinical and professional feel of the competition. This can be achieved with warm, pastel colors. Here is the primary palette for the site:
+The color palette needs to feel pleasant and welcoming, but also inspire confidence in the product quality. This will be achieved with a main palette consisting of slightlyl blue-shifted backgrounds and primary text colors, but warm pastels for the accents.
 
-![A palette of five colors](doc/palette.png)
+Colors used are as follows:
+
+ - Dark mode background: #080810
+ - Dark mode text: #efeff8
+ - Light mode background: #efeff8
+ - Light mode text: #080810
+
+ - Dark mode primary accent: #ffa73b
+ - Dark mode primary accent (darker): #c77800
+ - Light mode primary accent: #8c4500
+ - Light mode primary accent (lighter): #c17131
+
+ - Dark mode secondary accent: #40ff5d
+ - Dark mode secondary accent (darker): #00ca28
+ - Light mode secondary accent: #005e0c
+ - Light mode secondary accent (lighter): #3f8c3a
 
 Similarly, the font needs to be clear and inviting. The headers will use [Poppins SemiBold 600](https://fonts.google.com/specimen/Poppins) for its simple geometric forms, and the main content will use the highly legible [Quicksand Regular 400](https://fonts.google.com/specimen/Quicksand), which contrasts it with a thinner weight and friendly rounded strokes.
 
