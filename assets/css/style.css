@@ -514,18 +514,19 @@ nav > ul > .active > a {
 
 footer {
 	display: flex;
+	max-width: 72rem;
+	margin: auto;
 	flex-direction: row;
 	justify-content: center;
-	padding: 2rem 0 4rem;
+	padding: 2rem 2rem 4rem;
 }
 
 footer > div {
-	flex: 0 1 24rem;
+	flex: 1 1 0;
 }
 
 footer > div > h3 {
 	font-family: "Quicksand", sans-serif;
-	font-size: 1.5rem;
 }
 
 .links > ul {
@@ -535,6 +536,27 @@ footer > div > h3 {
 
 .links > ul > li > a {
 	text-decoration: none;
+}
+
+@media (min-width: 720px) {
+	
+	footer > div > h3 {
+		font-size: 1.5rem;
+	}
+	
+}
+
+@media (max-width: 480px) {
+	
+	footer {
+		flex-direction: column;
+		padding: 2rem;
+	}
+	
+	footer > div {
+		margin: 0.5rem 0;
+	}
+	
 }
 
 /* #endregion */
