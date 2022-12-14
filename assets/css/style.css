@@ -472,6 +472,14 @@ nav > ul > .active > a {
 	background-color: rgba(8, 8, 16, 0.6);
 }
 
+@media (max-width: 720px) {
+	
+	.gallery {
+		flex-flow: column;
+	}
+	
+}
+
 /* #endregion */
 
 /* #region Download */
