@@ -118,18 +118,22 @@ Colors used are as follows:
  - Dark mode text: #efeff8
  - Light mode background: #efeff8
  - Light mode text: #080810
-
  - Dark mode primary accent: #ffa73b
  - Dark mode primary accent (darker): #c77800
- - Light mode primary accent: #8c4500
- - Light mode primary accent (lighter): #c17131
-
  - Dark mode secondary accent: #40ff5d
  - Dark mode secondary accent (darker): #00ca28
+ - Light mode primary accent: #8c4500
+ - Light mode primary accent (lighter): #c17131
  - Light mode secondary accent: #005e0c
  - Light mode secondary accent (lighter): #3f8c3a
 
+![Color scheme swatch](doc/swatch.png)
+
+(Live version of the swatch available [here](https://tearnote.github.io/gamecraft-website/doc/swatch.html).)
+
 Similarly, the font needs to be clear and inviting. The headers will use [Poppins SemiBold 600](https://fonts.google.com/specimen/Poppins) for its simple geometric forms, and the main content will use the highly legible [Quicksand Regular 400](https://fonts.google.com/specimen/Quicksand), which contrasts it with a thinner weight and friendly rounded strokes.
+
+![Illustration of the font pairing](doc/fonts.png)
 
 ## Attribution
 
