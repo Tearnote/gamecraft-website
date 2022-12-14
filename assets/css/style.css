@@ -290,7 +290,7 @@ nav > ul > .active > a {
 .section-title {
 	border-left: 6px solid white;
 	padding-left: 1rem;
-	padding-bottom: 2rem;
+	padding-bottom: 3rem;
 	margin-top: 2rem;
 }
 
@@ -324,7 +324,7 @@ nav > ul > .active > a {
 
 .gallery > a > figure > img {
 	width: 100%;
-	height: 30rem;
+	height: 24rem;
 	object-fit: cover;
 	overflow: hidden;
 }
@@ -335,7 +335,7 @@ nav > ul > .active > a {
 	right: 0;
 	padding: 0.2em 0.8em;
 	font-size: 1.5rem;
-	background-color:rgba(8, 8, 16, 0.4);
+	background-color:rgba(8, 8, 16, 0.6);
 }
 
 /* #endregion */
