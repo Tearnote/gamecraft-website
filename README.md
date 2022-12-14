@@ -137,7 +137,7 @@ Similarly, the font needs to be clear and inviting. The headers will use [Poppin
 
 ## Attribution
 
-[Hero image](assets/images/hero.jpg): Image by [Patricio González]("https://pixabay.com/users/patolenin-991181/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6741424") from [Pixabay]("https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6741424")
+[Hero image](assets/images/hero.jpg): Image by [Patricio González](https://pixabay.com/users/patolenin-991181/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6741424) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6741424)
 
 Gallery images:
 
