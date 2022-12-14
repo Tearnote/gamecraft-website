@@ -342,6 +342,7 @@ nav > ul > .active > a {
 @media (max-width: 720px) {
 	
 	#hero {
+		height: 70vh;
 		padding: 4rem 1rem 0;
 	}
 	
@@ -351,6 +352,14 @@ nav > ul > .active > a {
 	
 	#hero > .labelled-button > a > button {
 		padding: 0.5rem 1rem;
+	}
+	
+}
+
+@media (max-width: 480px) {
+	
+	#hero {
+		height: 60vh;
 	}
 	
 }
