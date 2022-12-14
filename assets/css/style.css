@@ -411,6 +411,10 @@ nav > ul > .active > a {
 
 @media (max-width: 720px) {
 	
+	#features {
+		padding: 2rem 0;
+	}
+	
 	/* Need to mention nth-child for specificity */
 	#features > figure:nth-child(odd),
 	#features > figure:nth-child(even) {
@@ -460,7 +464,6 @@ nav > ul > .active > a {
 }
 
 .section-title > h2 {
-	font-size: 3rem;
 	padding-bottom: 0;
 }
 
@@ -503,10 +506,22 @@ nav > ul > .active > a {
 	background-color: rgba(8, 8, 16, 0.6);
 }
 
+@media (min-width: 720px) {
+	
+	.section-title > h2 {
+		font-size: 3rem;
+	}
+	
+}
+
 @media (max-width: 720px) {
 	
 	.gallery {
 		flex-flow: column;
+	}
+	
+	.section-title {
+		margin: 0 1rem;
 	}
 	
 }
@@ -519,7 +534,7 @@ nav > ul > .active > a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 4rem;
+	padding: 4rem 0;
 	background-color: #efeff8;
 	color: #080810;
 }
@@ -544,7 +559,15 @@ nav > ul > .active > a {
 }
 
 #download > .labelled-button {
-	margin: 6rem 0;
+	margin: 4rem 0 2rem;
+}
+
+@media (max-width: 720px) {
+	
+	#download {
+		padding: 2rem 0;
+	}
+	
 }
 
 /* #endregion */
