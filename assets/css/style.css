@@ -141,6 +141,7 @@ a.button {
 	padding: 0.5rem 2rem;
 	background: #ffa73b padding-box;
 	color: #080810;
+	text-align: center;
 	text-decoration: none;
 	border: 4px solid transparent;
 	border-radius: 0.4rem;
