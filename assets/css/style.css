@@ -147,6 +147,23 @@ p > a:visited:hover {
 	border-bottom: 1px solid #00ca28;
 }
 
+.light {
+	background-color: #efeff8;
+	color: #080810;
+}
+
+.light p > a,
+.light p > a:visited {
+	color: #005e0c;
+	border-bottom: 1px solid #005e0c;
+}
+
+.light p > a:hover,
+.light p > a:visited:hover {
+	color: #3f8c3a;
+	border-bottom: 1px solid #3f8c3a;
+}
+
 /* Highlight intentionally unavailable links */
 a[href="#"] {
 	cursor: not-allowed;
@@ -546,26 +563,12 @@ nav > ul > .active > a {
 	align-items: center;
 	text-align: center;
 	padding: 4rem 0;
-	background-color: #efeff8;
-	color: #080810;
 }
 
 #download > p {
 	text-align: justify;
 	border-bottom: 6px solid #080810;
 	padding: 0 1rem 1rem;
-}
-
-#download > p > a,
-#download > p > a:visited {
-	color: #005e0c;
-	border-bottom: 1px solid #005e0c;
-}
-
-#download > p > a:hover,
-#download > p > a:visited:hover {
-	color: #3f8c3a;
-	border-bottom: 1px solid #3f8c3a;
 }
 
 #download > .labelled-button {
@@ -643,8 +646,6 @@ footer > div > h3 {
 	align-items: center;
 	padding: 8rem 0 4rem;
 	text-align: center;
-	background-color: #efeff8;
-	color: #080810;
 }
 
 
