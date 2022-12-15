@@ -42,6 +42,10 @@ a:visited {
 
 /* #region Site-wide defaults */
 
+:root {
+	color-scheme: dark;
+}
+
 body {
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
