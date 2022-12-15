@@ -608,6 +608,11 @@ footer > div > h3 {
 	footer > div {
 		margin: 0.5rem 0;
 	}
+
+	footer > .links > ul > li {
+		display: block;
+		padding: 0.5rem 0;
+	}
 }
 
 /* #endregion */
