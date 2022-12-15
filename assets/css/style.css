@@ -317,7 +317,7 @@ nav > ul > .active > a {
 	height: 80vh;
 	min-height: 480px;
 	display: flex;
-	background: url(../images/hero.jpg) center/cover fixed, rgba(0, 0, 0, 0.6);
+	background: url(../images/hero.webp) center/cover fixed, rgba(0, 0, 0, 0.6);
 	background-blend-mode: overlay;
 	flex-direction: column;
 	justify-content: center;
