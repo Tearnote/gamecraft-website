@@ -170,10 +170,11 @@ a[href="#"] {
 }
 
 a.button {
+	display: inline-block;
 	font-family: "Poppins", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
-	padding: 0.5rem 2rem;
+	padding: 0.5rem 1.5rem;
 	background: #ffa73b padding-box;
 	color: #080810;
 	text-align: center;
@@ -195,6 +196,13 @@ a.button {
 	width: fit-content;
 	flex-direction: column;
 	align-items: center;
+}
+
+@media (max-width: 480px) {
+	a.button {
+		font-size: 1.25rem;
+		padding: 0.5rem 1.25rem;
+	}
 }
 
 /* #endregion */
