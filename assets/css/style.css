@@ -130,32 +130,28 @@ p > a:visited:hover {
 }
 
 /* Highlight intentionally unavailable links */
-a[href="#"],
-a[href="#"] > button {
+a[href="#"] {
 	cursor: not-allowed;
 }
 
-button {
+a.button {
 	font-family: "Poppins", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
 	padding: 0.5rem 2rem;
 	background: #ffa73b padding-box;
 	color: #080810;
+	text-decoration: none;
 	border: 4px solid transparent;
 	border-radius: 0.4rem;
 }
 
-button:hover {
+.button:hover {
 	background-color: #c77800;
 }
 
-button:focus {
+.button:focus {
 	border: 4px solid rgba(199, 120, 0, 0.6);
-}
-
-a > button {
-	cursor: pointer;
 }
 
 .labelled-button {
