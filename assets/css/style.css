@@ -73,35 +73,31 @@ h3 {
 }
 
 @media (max-width: 720px) {
-	
 	h1 {
 		font-size: 4rem;
 	}
-	
+
 	h2 {
 		font-size: 2rem;
 	}
-	
+
 	h3 {
 		font-size: 1.5rem;
 	}
-	
 }
 
 @media (max-width: 480px) {
-	
 	h1 {
 		font-size: 2.5rem;
 	}
-	
+
 	h2 {
 		font-size: 1.5rem;
 	}
-	
+
 	h3 {
 		font-size: 1.25rem;
 	}
-	
 }
 
 .icon {
@@ -238,7 +234,6 @@ nav > ul > .active > a {
 }
 
 @media (max-width: 720px) {
-	
 	header > nav {
 		display: flex;
 		flex-direction: column;
@@ -248,7 +243,7 @@ nav > ul > .active > a {
 		right: 0;
 		top: 0;
 	}
-	
+
 	.burger-icon {
 		font-size: 2rem;
 		width: 1.25em;
@@ -257,17 +252,17 @@ nav > ul > .active > a {
 		background-color: #efeff8;
 		z-index: 1;
 	}
-	
+
 	.burger-toggle ~ .burger-icon {
 		-webkit-mask: url(../icons/menu.svg) center/cover;
-		        mask: url(../icons/menu.svg) center/cover;
+		mask: url(../icons/menu.svg) center/cover;
 	}
-	
+
 	.burger-toggle:checked ~ .burger-icon {
 		-webkit-mask: url(../icons/close.svg) center/cover;
-		        mask: url(../icons/close.svg) center/cover;
+		mask: url(../icons/close.svg) center/cover;
 	}
-	
+
 	.burger-toggle {
 		display: block;
 		width: 2rem;
@@ -279,34 +274,33 @@ nav > ul > .active > a {
 		opacity: 0;
 		z-index: 2;
 	}
-	
+
 	header > nav > ul {
 		display: none;
 		margin-top: 0.65rem;
 		background-color: rgba(8, 8, 16, 0.4);
 	}
-	
+
 	.burger-toggle:checked ~ ul {
 		display: block;
 	}
-	
+
 	header > nav > ul > li {
 		display: block;
 		padding: 0.25rem 0.75rem;
 		border-bottom: none;
 		border-right: 2px solid transparent;
 	}
-	
+
 	header > nav > ul > li:hover {
 		border-bottom: none;
 		border-right: 2px solid #efeff8;
 	}
-	
+
 	header > nav > ul > li.active {
 		border-bottom: none;
 		border-right: 2px solid #ffa73b;
 	}
-	
 }
 
 /* #endregion */
@@ -340,28 +334,24 @@ nav > ul > .active > a {
 }
 
 @media (max-width: 720px) {
-	
 	#hero {
 		height: 70vh;
 		padding: 4rem 1rem 0;
 	}
-	
+
 	#hero > .labelled-button {
 		padding: 0.5rem;
 	}
-	
+
 	#hero > .labelled-button > a > button {
 		padding: 0.5rem 1rem;
 	}
-	
 }
 
 @media (max-width: 480px) {
-	
 	#hero {
 		height: 60vh;
 	}
-	
 }
 
 /* #endregion */
@@ -419,26 +409,25 @@ nav > ul > .active > a {
 }
 
 @media (max-width: 720px) {
-	
 	#features {
 		padding: 2rem 0;
 	}
-	
+
 	/* Need to mention nth-child for specificity */
 	#features > figure:nth-child(odd),
 	#features > figure:nth-child(even) {
 		flex-direction: column;
 		text-align: left;
 	}
-	
+
 	#features > figure > figcaption {
 		margin: 0 1rem;
 	}
-	
+
 	#features > figure > figcaption > h3 {
 		padding-top: 1rem;
 	}
-	
+
 	#features > figure:nth-child(odd) > figcaption > * {
 		border-left: 6px solid #efeff8;
 		padding-left: 1rem;
@@ -450,7 +439,6 @@ nav > ul > .active > a {
 		padding-left: 1rem;
 		padding-right: none;
 	}
-	
 }
 
 /* #endregion */
@@ -516,19 +504,16 @@ nav > ul > .active > a {
 }
 
 @media (min-width: 720px) {
-	
 	.section-title > h2 {
 		font-size: 3rem;
 	}
-	
 }
 
 @media (max-width: 720px) {
-	
 	.gallery {
 		flex-flow: column;
 	}
-	
+
 	.section-title {
 		margin: 0 1rem;
 		padding: 0 1rem 1.5rem 0;
@@ -536,7 +521,6 @@ nav > ul > .active > a {
 		border-right: 6px solid #efeff8;
 		text-align: right;
 	}
-	
 }
 
 /* #endregion */
@@ -577,11 +561,9 @@ nav > ul > .active > a {
 }
 
 @media (max-width: 720px) {
-	
 	#download {
 		padding: 2rem 1rem;
 	}
-	
 }
 
 /* #endregion */
@@ -615,24 +597,20 @@ footer > div > h3 {
 }
 
 @media (min-width: 720px) {
-	
 	footer > div > h3 {
 		font-size: 1.5rem;
 	}
-	
 }
 
 @media (max-width: 480px) {
-	
 	footer {
 		flex-direction: column;
 		padding: 2rem;
 	}
-	
+
 	footer > div {
 		margin: 0.5rem 0;
 	}
-	
 }
 
 /* #endregion */
