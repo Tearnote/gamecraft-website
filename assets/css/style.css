@@ -656,6 +656,57 @@ footer > div > h3 {
 	text-align: center;
 }
 
+#pricing > p {
+	text-align: justify;
+	border-bottom: 6px solid #080810;
+	padding: 0 1rem 1rem;
+}
 
+.tiers {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 4rem 1rem;
+}
+
+.tier {
+	width: 100%;
+	max-width: 24rem;
+	flex: 1 0 0;
+	padding: 1rem 0.5rem;
+}
+
+.tier:not(:first-child) {
+	margin-left: 1rem;
+}
+
+.tier:nth-child(odd) {
+	background-color: rgba(8, 8, 16, 0.06);
+}
+
+.tier:nth-child(even) {
+	background-color: rgba(8, 8, 16, 0.12);
+}
+
+.tier > .button {
+	margin-top: 1rem;
+}
+
+@media (max-width: 720px) {
+	.tiers {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.tier:not(:first-child) {
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+
+	#pricing {
+		padding: 6rem 1rem 2rem;
+	}
+}
 
 /* #endregion */
