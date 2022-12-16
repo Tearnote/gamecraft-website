@@ -357,7 +357,7 @@ nav > ul > .active > a {
 	background: url(../images/hero.webp) center/cover fixed;
 	flex-direction: column;
 	justify-content: center;
-	padding: 4rem 2rem 0 2rem;
+	padding: 4rem 5vw 0 5vw;
 	position: relative;
 	z-index: 1;
 	animation: 100s ease-out forwards hero-bg-slide;
@@ -375,13 +375,13 @@ nav > ul > .active > a {
 
 .hero-box {
 	width: fit-content;
-	padding: 2rem;
-	background: rgba(8, 8, 16, 0.1);
+	padding: 1rem 1.5rem;
+	background: rgba(8, 8, 16, 0.6);
 	backdrop-filter: blur(1rem);
 }
 
 .hero-box > * {
-	border-left: 1rem solid #080810;
+	border-left: 1rem solid #efeff8;
 	padding-left: 1rem;
 }
 
@@ -395,8 +395,8 @@ nav > ul > .active > a {
 
 @media (max-width: 720px) {
 	#hero {
-		/* height: 70vh; */
 		padding: 4rem 0 0;
+		animation-duration: 250s;
 	}
 
 	.hero-box > .labelled-button {
@@ -410,7 +410,7 @@ nav > ul > .active > a {
 
 @media (max-width: 480px) {
 	#hero {
-		/* height: 60vh; */
+		animation-duration: 400s;
 	}
 }
 
