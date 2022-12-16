@@ -423,13 +423,14 @@ nav > ul > .active > a {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	padding: 4rem 0;
+	padding-top: 2rem;
 }
 
 #features > figure {
 	display: flex;
-	max-width: 1200px;
-	margin: 2rem 0;
+	justify-content: center;
+	width: 100%;
+	padding: 2rem 0;
 }
 
 #features > figure:nth-child(odd) {
@@ -440,25 +441,27 @@ nav > ul > .active > a {
 #features > figure:nth-child(even) {
 	flex-direction: row-reverse;
 	text-align: right;
+	background-color: rgba(239, 239, 247, 0.12);
 }
 
 #features > figure > img {
 	flex: 0 0 36%;
-	height: 18rem;
+	height: 16rem;
 	object-fit: cover;
 	overflow: hidden;
 }
 
 #features > figure > figcaption {
+	height: fit-content;
 	margin: 1rem 2rem;
 }
 
-#features > figure:nth-child(odd) > figcaption > * {
+#features > figure:nth-child(odd) > figcaption {
 	border-left: 6px solid #efeff8;
 	padding-left: 1rem;
 }
 
-#features > figure:nth-child(even) > figcaption > * {
+#features > figure:nth-child(even) > figcaption {
 	border-right: 6px solid #efeff8;
 	padding-right: 1rem;
 }
@@ -469,30 +472,35 @@ nav > ul > .active > a {
 
 @media (max-width: 720px) {
 	#features {
-		padding: 2rem 0;
+		padding: 2rem 0 0;
 	}
 
 	/* Need to mention nth-child for specificity */
 	#features > figure:nth-child(odd),
 	#features > figure:nth-child(even) {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		text-align: left;
+		padding: 2rem 0 0;
 	}
 
 	#features > figure > figcaption {
 		margin: 0 1rem;
 	}
-
+	
 	#features > figure > figcaption > h3 {
-		padding-top: 1rem;
+		padding-top: 0.5rem;
+	}
+	
+	#features > figure > figcaption > p {
+		padding-bottom: 1.5rem;
 	}
 
-	#features > figure:nth-child(odd) > figcaption > * {
+	#features > figure:nth-child(odd) > figcaption {
 		border-left: 6px solid #efeff8;
 		padding-left: 1rem;
 	}
 
-	#features > figure:nth-child(even) > figcaption > * {
+	#features > figure:nth-child(even) > figcaption {
 		border-left: 6px solid #efeff8;
 		border-right: none;
 		padding-left: 1rem;
@@ -508,7 +516,7 @@ nav > ul > .active > a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 4rem 0;
+	padding-top: 4rem;
 }
 
 .section-title {
