@@ -606,9 +606,14 @@ nav > ul > .active > a {
 	padding: 4rem 0;
 }
 
+#download > h2 {
+	padding: 0 1rem;
+	border-bottom: 6px solid #080810;
+	margin-bottom: 1rem;
+}
+
 #download > p {
 	text-align: justify;
-	border-bottom: 6px solid #080810;
 	padding: 0 1rem 1rem;
 }
 
