@@ -354,23 +354,34 @@ nav > ul > .active > a {
 	height: 80vh;
 	min-height: 480px;
 	display: flex;
-	background: url(../images/hero.webp) center/cover fixed, rgba(0, 0, 0, 0.6);
-	background-blend-mode: overlay;
+	background: url(../images/hero.webp) center/cover fixed;
 	flex-direction: column;
 	justify-content: center;
 	padding: 4rem 2rem 0 2rem;
 	position: relative;
 	z-index: 1;
+	animation: 100s ease-out forwards hero-bg-slide;
+}
+
+@keyframes hero-bg-slide {
+	from {
+		background-position: left;
+	}
+	
+	to {
+		background-position: right;
+	}
 }
 
 .hero-box {
 	width: fit-content;
 	padding: 2rem;
-	backdrop-filter: blur(2rem);
+	background: rgba(8, 8, 16, 0.1);
+	backdrop-filter: blur(1rem);
 }
 
 .hero-box > * {
-	border-left: 1rem solid #efeff8;
+	border-left: 1rem solid #080810;
 	padding-left: 1rem;
 }
 
@@ -384,7 +395,7 @@ nav > ul > .active > a {
 
 @media (max-width: 720px) {
 	#hero {
-		height: 70vh;
+		/* height: 70vh; */
 		padding: 4rem 0 0;
 	}
 
@@ -399,7 +410,7 @@ nav > ul > .active > a {
 
 @media (max-width: 480px) {
 	#hero {
-		height: 60vh;
+		/* height: 60vh; */
 	}
 }
 
