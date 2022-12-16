@@ -529,16 +529,17 @@ nav > ul > .active > a {
 
 .gallery > a:nth-child(4n + 1),
 .gallery > a:nth-child(4n + 4) {
-	flex: 0 0 40%;
+	flex: 0 0 46%;
 }
 
 .gallery > a:nth-child(4n + 2),
 .gallery > a:nth-child(4n + 3) {
-	flex: 0 0 60%;
+	flex: 0 0 54%;
 }
 
 .gallery > a > figure {
 	position: relative;
+	margin-bottom: 6px;
 }
 
 .gallery > a > figure > img {
@@ -560,6 +561,14 @@ nav > ul > .active > a {
 @media (min-width: 720px) {
 	.section-title > h2 {
 		font-size: 3rem;
+	}
+	
+	.gallery > a:nth-child(even) > figure {
+		margin-left: 3px;
+	}
+	
+	.gallery > a:nth-child(odd) > figure {
+		margin-right: 3px;
 	}
 }
 
