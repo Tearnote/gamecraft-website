@@ -367,7 +367,7 @@ nav > ul > .active > a {
 	from {
 		background-position: left;
 	}
-	
+
 	to {
 		background-position: right;
 	}
@@ -397,6 +397,10 @@ nav > ul > .active > a {
 	#hero {
 		padding: 4rem 0 0;
 		animation-duration: 250s;
+	}
+
+	.hero-box {
+		padding: 1rem;
 	}
 
 	.hero-box > .labelled-button {
@@ -472,7 +476,7 @@ nav > ul > .active > a {
 
 @media (max-width: 720px) {
 	#features {
-		padding: 2rem 0 0;
+		padding: 0;
 	}
 
 	/* Need to mention nth-child for specificity */
@@ -480,17 +484,17 @@ nav > ul > .active > a {
 	#features > figure:nth-child(even) {
 		flex-direction: column-reverse;
 		text-align: left;
-		padding: 2rem 0 0;
+		padding: 4rem 0 0;
 	}
 
 	#features > figure > figcaption {
 		margin: 0 1rem;
 	}
-	
+
 	#features > figure > figcaption > h3 {
 		padding-top: 0.5rem;
 	}
-	
+
 	#features > figure > figcaption > p {
 		padding-bottom: 1.5rem;
 	}
@@ -570,11 +574,11 @@ nav > ul > .active > a {
 	.section-title > h2 {
 		font-size: 3rem;
 	}
-	
+
 	.gallery > a:nth-child(even) > figure {
 		margin-left: 3px;
 	}
-	
+
 	.gallery > a:nth-child(odd) > figure {
 		margin-right: 3px;
 	}
@@ -618,12 +622,12 @@ nav > ul > .active > a {
 }
 
 #download > .labelled-button {
-	margin: 4rem 0 2rem;
+	margin: 4rem 0 1rem;
 }
 
 @media (max-width: 720px) {
 	#download {
-		padding: 2rem 1rem;
+		padding: 4rem 1rem;
 	}
 }
 
