@@ -658,6 +658,11 @@ footer > div > h3 {
 	padding: 0;
 }
 
+.links > ul > li {
+	display: block;
+	padding: 0.1em 0;
+}
+
 .links > ul > li > a {
 	text-decoration: none;
 }
@@ -676,11 +681,6 @@ footer > div > h3 {
 
 	footer > div {
 		margin: 0.5rem 0;
-	}
-
-	footer > .links > ul > li {
-		display: block;
-		padding: 0.5rem 0;
 	}
 }
 
