@@ -358,35 +358,41 @@ nav > ul > .active > a {
 	background-blend-mode: overlay;
 	flex-direction: column;
 	justify-content: center;
-	padding: 4rem 8vw 0;
+	padding: 4rem 2rem 0 2rem;
 	position: relative;
 	z-index: 1;
 }
 
-#hero > * {
+.hero-box {
+	width: fit-content;
+	padding: 2rem;
+	backdrop-filter: blur(2rem);
+}
+
+.hero-box > * {
 	border-left: 1rem solid #efeff8;
 	padding-left: 1rem;
 }
 
-#hero > h1 {
+.hero-box > h1 {
 	line-height: 1;
 }
 
-#hero > .labelled-button {
+.hero-box > .labelled-button {
 	padding: 1rem 2rem;
 }
 
 @media (max-width: 720px) {
 	#hero {
 		height: 70vh;
-		padding: 4rem 1rem 0;
+		padding: 4rem 0 0;
 	}
 
-	#hero > .labelled-button {
+	.hero-box > .labelled-button {
 		padding: 0.5rem;
 	}
 
-	#hero > .labelled-button > a > button {
+	.hero-box > .labelled-button > a > button {
 		padding: 0.5rem 1rem;
 	}
 }
