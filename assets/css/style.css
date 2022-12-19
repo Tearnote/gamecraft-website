@@ -237,6 +237,13 @@ a.button.secondary {
 	border-bottom: 6px solid #080810;
 }
 
+fieldset,
+legend {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
 /* #endregion */
 
 /* #region Header */
@@ -863,7 +870,8 @@ footer > div > h3 {
 	background-color: rgba(8, 8, 16, 0.12);
 }
 
-.support-method > form > label {
+.support-method > form > label,
+.support-method > form > fieldset {
 	width: 100%;
 	margin: 0.5rem;
 }
@@ -871,6 +879,15 @@ footer > div > h3 {
 .support-method > form > label > * {
 	width: 100%;
 	min-height: 2rem;
+}
+
+.support-method > form > fieldset {
+	display: flex;
+	flex-flow: row;
+}
+
+.support-method > form > fieldset > label {
+	margin: 0.25rem 0.5rem 0;
 }
 
 /* #endregion */
