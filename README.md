@@ -142,6 +142,16 @@ A few issues are present in the website, they will be documented below.
 -   **Form autocomplete doesn't match page style**  
     This issue is caused by browser-specific styles overriding the form control styles when the autocompletion feature is used. The solution would require a lot of research for the right CSS vendor prefixes. Resolving this would take too much time for the benefit.
 
+## Validation
+
+All project files validated successfully the with HTML checker and CSS checker at https://validator.w3.org/nu. HTML files have information-level alerts about redundant slash in self-closing tags. These are present because the recommended _Prettier_ formatting tool adds the slashes, without an option to turn it off.
+
+Additionally, the CSS validation reports `mask` statements as invalid, such as:
+```
+mask: url(../icons/menu.svg) center/cover;
+```
+This appears to be a false positive related to `mask` shorthand parsing. The syntax is correct as per the formal definition at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mask#formal_syntax), the property works when split into 3 individual properties (`mask-image`, `mask-position` and `mask-size`), and the [GitHub issue](https://github.com/w3c/css-validator/issues/151) regarding CSS masking implementation in the validator is open. 
+
 ## Attribution
 
 Stock images:
