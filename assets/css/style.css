@@ -233,7 +233,8 @@ input[type="submit"]:focus {
 }
 
 @media (max-width: 480px) {
-	a.button {
+	a.button,
+	input[type="submit"] {
 		font-size: 1.25rem;
 		padding: 0.5rem 1.25rem;
 	}
@@ -933,9 +934,8 @@ footer > div > h3 {
 	margin: 1rem 0;
 	padding: 1rem;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	min-width: 36rem;
+	flex-flow: column;
+	align-items: center;
 	background-color: rgba(8, 8, 16, 0.12);
 	backdrop-filter: blur(1rem);
 }
@@ -943,6 +943,7 @@ footer > div > h3 {
 .support-method > form > label,
 .support-method > form > fieldset {
 	width: 100%;
+	flex: 1 0 0;
 	margin: 0.75rem 0.5rem;
 }
 
@@ -957,7 +958,20 @@ footer > div > h3 {
 }
 
 .support-method > form > fieldset > label {
+	width: max-content;
 	margin: 0.25rem 0.5rem 0;
+}
+
+@media (max-width: 720px) {
+	.support-method {
+		margin: 2rem 0;
+	}
+}
+
+@media (max-width: 540px) {
+	.support-method > form > fieldset {
+		flex-flow: column;
+	}
 }
 
 /* #endregion */
