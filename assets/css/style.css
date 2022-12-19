@@ -1008,7 +1008,7 @@ footer > div > h3 {
 		rgba(8, 8, 16, 1) 0%,
 		rgba(8, 8, 16, 0) 100%
 	);
-	z-index: 1;
+	z-index: 0;
 }
 
 #assets > .description {
@@ -1020,7 +1020,7 @@ footer > div > h3 {
 	text-align: right;
 	border-right: 6px solid #efeff8;
 	padding-right: 1rem;
-	z-index: 2;
+	z-index: 1;
 }
 
 #assets > .description > .labelled-button {
