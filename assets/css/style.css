@@ -598,9 +598,9 @@ nav > ul > .active > a {
 
 	#features > figure:nth-child(even) > figcaption {
 		border-left: 6px solid #efeff8;
-		border-right: none;
+		border-right: 0;
 		padding-left: 1rem;
-		padding-right: none;
+		padding-right: 0;
 	}
 }
 
