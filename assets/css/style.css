@@ -1001,6 +1001,8 @@ footer > div > h3 {
 }
 
 #assets > .description {
+	max-width: 36em;
+	flex: 1 0 30rem;
 	display: flex;
 	flex-flow: column;
 	align-items: flex-end;
@@ -1012,6 +1014,28 @@ footer > div > h3 {
 #assets > .description > .labelled-button {
 	align-self: center;
 	margin: 4rem 0 1rem;
+}
+
+.preview-list {
+	max-width: 42rem;
+	max-height: 80vh;
+	overflow: hidden;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	margin-left: 2rem;
+}
+
+.preview-list > figure {
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	width: 6rem;
+	margin: 0.5rem;
+}
+
+.preview-list > figure > img {
+	border-radius: 1.2rem;
 }
 
 /* #endregion */
