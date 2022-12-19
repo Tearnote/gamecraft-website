@@ -717,7 +717,9 @@ footer > div > h3 {
 	flex-direction: column;
 	align-items: center;
 	padding: 8rem 0 4rem;
-	background: url(../images/hero.webp) center/cover, 
+	background: url(../images/project2.webp) center/cover,
+		linear-gradient(180deg, rgba(239,239,248,1) 0%, rgba(239,239,248,0.5010154574525123) 75%, rgba(239,239,248,0) 100%);
+	background-blend-mode: overlay;
 }
 
 #pricing > h2 {
@@ -748,6 +750,7 @@ footer > div > h3 {
 	flex: 1 0 0;
 	padding: 1rem 2rem;
 	background-color: rgba(8, 8, 16, 0.12);
+	backdrop-filter: blur(1rem);
 }
 
 .tier.dark {
