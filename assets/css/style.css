@@ -717,6 +717,7 @@ footer > div > h3 {
 	flex-direction: column;
 	align-items: center;
 	padding: 8rem 0 4rem;
+	background: url(../images/hero.webp) center/cover, 
 }
 
 #pricing > h2 {
@@ -730,7 +731,7 @@ footer > div > h3 {
 	padding: 0 1rem 1rem;
 }
 
-.tiers {
+.tier-list {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -790,7 +791,7 @@ footer > div > h3 {
 }
 
 @media (max-width: 720px) {
-	.tiers {
+	.tier-list {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -801,7 +802,7 @@ footer > div > h3 {
 	}
 
 	#pricing {
-		padding: 6rem 1rem 2rem;
+		padding: 6rem 0 2rem;
 	}
 }
 
