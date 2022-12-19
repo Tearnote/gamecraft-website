@@ -150,7 +150,11 @@ Additionally, the CSS validation reports `mask` statements as invalid, such as:
 ```
 mask: url(../icons/menu.svg) center/cover;
 ```
-This appears to be a false positive related to `mask` shorthand parsing. The syntax is correct as per the formal definition at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mask#formal_syntax), the property works when split into 3 individual properties (`mask-image`, `mask-position` and `mask-size`), and the [GitHub issue](https://github.com/w3c/css-validator/issues/151) regarding CSS masking implementation in the validator is open. 
+This appears to be a false positive related to `mask` shorthand parsing. The syntax is correct as per the formal definition at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mask#formal_syntax), the property works when split into 3 individual properties (`mask-image`, `mask-position` and `mask-size`), and the [GitHub issue](https://github.com/w3c/css-validator/issues/151) regarding CSS masking implementation in the validator is open.
+
+The Lighthouse report shows a score of 100 in every category:
+
+![Lighthouse report card](doc/lighthouse.png)
 
 ## Attribution
 
