@@ -631,6 +631,13 @@ nav > ul > .active > a {
 	align-items: center;
 	text-align: center;
 	padding: 4rem 0;
+	background: url(../images/hero.webp) center/cover,
+		linear-gradient(
+			180deg,
+			rgba(239, 239, 248, 1) 0%,
+			rgba(239, 239, 248, 0.7) 100%
+		);
+	background-blend-mode: overlay;
 }
 
 #download > h2 {
@@ -719,7 +726,12 @@ footer > div > h3 {
 	align-items: center;
 	padding: 8rem 0 4rem;
 	background: url(../images/project2.webp) center/cover,
-		linear-gradient(180deg, rgba(239,239,248,1) 0%, rgba(239,239,248,0.5010154574525123) 75%, rgba(239,239,248,0) 100%);
+		linear-gradient(
+			180deg,
+			rgba(239, 239, 248, 1) 0%,
+			rgba(239, 239, 248, 0.5010154574525123) 75%,
+			rgba(239, 239, 248, 0) 100%
+		);
 	background-blend-mode: overlay;
 }
 
