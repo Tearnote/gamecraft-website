@@ -227,6 +227,16 @@ a.button.secondary {
 	}
 }
 
+.main {
+	padding: 0 1rem;
+	border-bottom: 6px solid #efeff8;
+	margin-bottom: 1rem;
+}
+
+.light .main {
+	border-bottom: 6px solid #080810;
+}
+
 /* #endregion */
 
 /* #region Header */
@@ -640,12 +650,6 @@ nav > ul > .active > a {
 	background-blend-mode: overlay;
 }
 
-#download > h2 {
-	padding: 0 1rem;
-	border-bottom: 6px solid #080810;
-	margin-bottom: 1rem;
-}
-
 #download > p {
 	text-align: justify;
 	padding: 0 1rem 1rem;
@@ -737,9 +741,6 @@ footer > div > h3 {
 
 #pricing > h2 {
 	text-align: center;
-	padding: 0 1rem;
-	border-bottom: 6px solid #080810;
-	margin: 0 1rem 1rem;
 }
 
 #pricing > p {

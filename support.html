@@ -42,7 +42,7 @@
 		<main>
 			<!-- Support methods -->
 			<section id="support" class="light">
-				<h2>Help is here.</h2>
+				<h2 class="main">Help is here.</h2>
 				<p>
 					We have many resources, both official and community-based,
 					to help you with any issues you encounter while using
@@ -50,89 +50,98 @@
 					resources below, you can also contact us directly via an
 					email form.
 				</p>
-				<div class="support-method" id="docs">
-					<h3>Documentation</h3>
-					<p>
-						Our documentation is the prime destination for the fine
-						details of any <em>Gamecraft</em> feature. Here you can
-						see the available logic blocks as well as which
-						difficulty level they belong to, real-life usage
-						examples, and answers to common questions. We recommend
-						that you consult the documentation first - you can find
-						it <a href="#">here</a>. If you find that the docs are
-						lacking for any reason, or have an idea for improvement,
-						let us know using the
-						<a href="#email">contact form</a> below.
-					</p>
-				</div>
-				<div class="support-method" id="forums">
-					<h3>Forums</h3>
-					<p>
-						We host official forums, where Gamecraft newcomers and
-						experts alike are welcome to discuss their ideas and
-						support each other throughout the sometimes grueling
-						task of videogame development. We also have in-house
-						<em>Gamecraft</em> experts answering questions posted
-						here. Before creating a new thread, try to use the
-						search function first - it's possible that someone else
-						had the same problem, and you'll be able to get it
-						resolved right away! You can visit the forums through
-						<a href="#">here</a>.
-					</p>
-				</div>
-				<div class="support-method" id="email">
-					<h3>Contact form</h3>
-					<p>
-						If your questions were not answered by the resources
-						above, or you are looking to contact us directly for any
-						reason, use the form below to get in touch with us. You
-						will receive an answer within 2 working days.
-					</p>
-					<form
-						method="post"
-						action="https://formdump.codeinstitute.net"
-					>
-						<label>
-							Name:
-							<input name="name" autocomplete="name" required />
-						</label>
-						<label>
-							Email address:
-							<input
-								type="email"
-								name="email"
-								autocomplete="email"
-								required
-							/>
-						</label>
-						<label>
-							Type of inquiry:
-							<select name="type" required>
-								<option value=""></option>
-								<option value="support">Support request</option>
-								<option value="quote">
-									License quote request
-								</option>
-								<option value="privacy">
-									Privacy-related inquiry
-								</option>
-								<option value="business">
-									Business inquiry
-								</option>
-								<option value="other">Other</option>
-							</select>
-						</label>
-						<label>
-							Inquiry text:
-							<textarea
-								name="contents"
-								rows="8"
-								cols="36"
-								required
-							></textarea>
-						</label>
-						<input type="submit" value="Send" />
-					</form>
+				<div class="method-list">
+					<div class="support-method" id="docs">
+						<h3>Documentation</h3>
+						<p>
+							Our documentation is the prime destination for the
+							fine details of any <em>Gamecraft</em> feature. Here
+							you can see the available logic blocks as well as
+							which difficulty level they belong to, real-life
+							usage examples, and answers to common questions. We
+							recommend that you consult the documentation first -
+							you can find it <a href="#">here</a>. If you find
+							that the docs are lacking for any reason, or have an
+							idea for improvement, let us know using the
+							<a href="#email">contact form</a> below.
+						</p>
+					</div>
+					<div class="support-method" id="forums">
+						<h3>Forums</h3>
+						<p>
+							We host official forums, where Gamecraft newcomers
+							and experts alike are welcome to discuss their ideas
+							and support each other throughout the sometimes
+							grueling task of videogame development. We also have
+							in-house <em>Gamecraft</em> experts answering
+							questions posted here. Before creating a new thread,
+							try to use the search function first - it's possible
+							that someone else had the same problem, and you'll
+							be able to get it resolved right away! You can visit
+							the forums through <a href="#">here</a>.
+						</p>
+					</div>
+					<div class="support-method" id="email">
+						<h3>Contact form</h3>
+						<p>
+							If your questions were not answered by the resources
+							above, or you are looking to contact us directly for
+							any reason, use the form below to get in touch with
+							us. You will receive an answer within 2 working
+							days.
+						</p>
+						<form
+							method="post"
+							action="https://formdump.codeinstitute.net"
+						>
+							<label>
+								Name:
+								<input
+									name="name"
+									autocomplete="name"
+									required
+								/>
+							</label>
+							<label>
+								Email address:
+								<input
+									type="email"
+									name="email"
+									autocomplete="email"
+									required
+								/>
+							</label>
+							<label>
+								Type of inquiry:
+								<select name="type" required>
+									<option value=""></option>
+									<option value="support">
+										Support request
+									</option>
+									<option value="quote">
+										License quote request
+									</option>
+									<option value="privacy">
+										Privacy-related inquiry
+									</option>
+									<option value="business">
+										Business inquiry
+									</option>
+									<option value="other">Other</option>
+								</select>
+							</label>
+							<label>
+								Inquiry text:
+								<textarea
+									name="contents"
+									rows="8"
+									cols="36"
+									required
+								></textarea>
+							</label>
+							<input type="submit" value="Send" />
+						</form>
+					</div>
 				</div>
 			</section>
 		</main>
