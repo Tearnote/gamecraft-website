@@ -251,8 +251,8 @@ legend {
 	font-weight: 700;
 }
 
-input,
-input:focus,
+input:not([type="submit"]),
+input:not([type="submit"]):focus,
 textarea,
 textarea:focus,
 fieldset > label {
