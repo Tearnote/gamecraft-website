@@ -243,6 +243,7 @@ header {
 		rgba(8, 8, 16, 1) 0%,
 		rgba(8, 8, 16, 0.4) 100%
 	);
+	backdrop-filter: blur(1rem);
 	z-index: 2;
 }
 
@@ -723,9 +724,10 @@ footer > div > h3 {
 }
 
 #pricing > h2 {
+	text-align: center;
 	padding: 0 1rem;
 	border-bottom: 6px solid #080810;
-	margin-bottom: 1rem;
+	margin: 0 1rem 1rem;
 }
 
 #pricing > p {
