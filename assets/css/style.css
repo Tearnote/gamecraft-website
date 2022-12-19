@@ -694,7 +694,7 @@ nav > ul > .active > a {
 	align-items: center;
 	text-align: center;
 	padding: 4rem 0;
-	background: url(../images/hero.webp) center/cover,
+	background: url(../images/hero.webp) left/cover,
 		linear-gradient(
 			180deg,
 			rgba(239, 239, 248, 1) 0%,
@@ -882,12 +882,22 @@ footer > div > h3 {
 /* #region Contact */
 
 #support {
+	position: relative;
 	width: 100%;
 	height: 100%;
 	padding: 8rem 1rem 4rem;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	z-index: 0;
+}
+
+#support > .background {
+	width: 100%;
+	height: 60%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	background: url(../images/project4.webp) center/cover,
 		linear-gradient(
 			180deg,
@@ -895,6 +905,7 @@ footer > div > h3 {
 			rgba(239, 239, 248, 0.7) 100%
 		);
 	background-blend-mode: overlay;
+	z-index: -1;
 }
 
 .method-list {
