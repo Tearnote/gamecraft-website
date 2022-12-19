@@ -248,6 +248,7 @@ input[type="submit"]:focus {
 label,
 legend {
 	font-size: 0.9em;
+	font-weight: 700;
 }
 
 input,
@@ -260,6 +261,7 @@ fieldset > label {
 	outline: none;
 	color: inherit;
 	font-size: 1rem;
+	font-weight: 400;
 }
 
 input:not([type]),
@@ -886,6 +888,13 @@ footer > div > h3 {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	background: url(../images/project4.webp) center/cover,
+		linear-gradient(
+			180deg,
+			rgba(239, 239, 248, 1) 0%,
+			rgba(239, 239, 248, 0.7) 100%
+		);
+	background-blend-mode: overlay;
 }
 
 .method-list {
@@ -913,6 +922,7 @@ footer > div > h3 {
 	justify-content: center;
 	min-width: 36rem;
 	background-color: rgba(8, 8, 16, 0.12);
+	backdrop-filter: blur(1rem);
 }
 
 .support-method > form > label,
