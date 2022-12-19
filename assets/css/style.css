@@ -1055,4 +1055,32 @@ footer > div > h3 {
 	border-radius: 1.2rem;
 }
 
+@media (max-width: 720px) {
+	#assets {
+		flex-flow: column;
+		padding-top: 6rem;
+	}
+
+	#assets > .description {
+		flex: auto;
+		text-align: center;
+		align-items: center;
+		border: none;
+		padding-right: 0;
+		padding-bottom: 4rem;
+	}
+
+	#assets > .description > h2 {
+		padding: 0 1rem;
+		border-bottom: 6px solid #efeff8;
+		margin-bottom: 1rem;
+	}
+
+	.preview-list {
+		margin: 0;
+		justify-content: center;
+		max-height: 30rem;
+	}
+}
+
 /* #endregion */
