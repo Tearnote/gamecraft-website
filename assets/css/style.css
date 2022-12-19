@@ -202,7 +202,7 @@ a.button.secondary {
 }
 
 .dark a.button.secondary {
-	color: #efefef;
+	color: #efeff8;
 }
 
 .button:hover {
@@ -771,7 +771,7 @@ footer > div > h3 {
 }
 
 .tier.dark > h3 {
-	border-bottom: 4px solid #efefef;
+	border-bottom: 4px solid #efeff8;
 }
 
 .tier:not(:first-child) {
