@@ -46,6 +46,10 @@ a:visited {
 	color-scheme: dark;
 }
 
+html {
+	scroll-padding-top: 4rem;
+}
+
 body {
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
