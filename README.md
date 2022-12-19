@@ -135,6 +135,13 @@ Similarly, the font needs to be clear and inviting. The headers will use [Poppin
 
 ![Illustration of the font pairing](doc/fonts.png)
 
+## Bugs
+
+A few issues are present in the website, they will be documented below.
+
+-   Form autocomplete doesn't match page style  
+    This issue is caused by browser-specific styles overriding the form control styles when the autocompletion feature is used. The solution would require a lot of research for the right CSS vendor prefixes. Resolving this would take too much time for the benefit.
+
 ## Attribution
 
 Stock images:
