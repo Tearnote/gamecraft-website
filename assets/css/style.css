@@ -993,11 +993,7 @@ footer > div > h3 {
 	justify-content: center;
 	padding: 8rem 1rem 0rem;
 	background: url(../images/feature2.webp) center/cover,
-		linear-gradient(
-			180deg,
-			rgba(8, 8, 16, 1) 0%,
-			rgba(8, 8, 16, 0.7) 100%
-		);
+		linear-gradient(180deg, rgba(8, 8, 16, 1) 0%, rgba(8, 8, 16, 0.7) 100%);
 	background-blend-mode: overlay;
 }
 
@@ -1007,12 +1003,11 @@ footer > div > h3 {
 	height: 25%;
 	left: 0;
 	bottom: 0;
-	background: 
-		linear-gradient(
-			0deg,
-			rgba(8, 8, 16, 1) 0%,
-			rgba(8, 8, 16, 0) 100%
-		);
+	background: linear-gradient(
+		0deg,
+		rgba(8, 8, 16, 1) 0%,
+		rgba(8, 8, 16, 0) 100%
+	);
 	z-index: 1;
 }
 
