@@ -95,47 +95,66 @@
 							action="https://formdump.codeinstitute.net"
 						>
 							<label>
-								Name:
+								Name
 								<input
 									name="name"
 									autocomplete="name"
+									placeholder="John Doe"
 									required
 								/>
 							</label>
 							<label>
-								Email address:
+								Email address
 								<input
 									type="email"
 									name="email"
 									autocomplete="email"
+									placeholder="example@example.com"
 									required
 								/>
 							</label>
+							<fieldset>
+								<legend>What is your message about?</legend>
+								<label>
+									<input
+										type="radio"
+										name="type"
+										value="support"
+									/>
+									Support request
+								</label>
+								<label>
+									<input
+										type="radio"
+										name="type"
+										value="quote"
+									/>
+									Quote
+								</label>
+								<label>
+									<input
+										type="radio"
+										name="type"
+										value="support"
+									/>
+									Privacy
+								</label>
+								<label>
+									<input
+										type="radio"
+										name="type"
+										value="support"
+									/>
+									Other
+								</label>
+							</fieldset>
 							<label>
-								Type of inquiry:
-								<select name="type" required>
-									<option value=""></option>
-									<option value="support">
-										Support request
-									</option>
-									<option value="quote">
-										License quote request
-									</option>
-									<option value="privacy">
-										Privacy-related inquiry
-									</option>
-									<option value="business">
-										Business inquiry
-									</option>
-									<option value="other">Other</option>
-								</select>
-							</label>
-							<label>
-								Inquiry text:
+								Message
 								<textarea
-									name="contents"
+									name="message"
 									rows="8"
 									cols="36"
+									placeholder="Write your message here..."
 									required
 								></textarea>
 							</label>
