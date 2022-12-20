@@ -576,6 +576,8 @@ nav > ul > .active > a {
 	height: 24rem;
 	object-fit: cover;
 	overflow: hidden;
+	filter: brightness(100%);
+	transition: filter 0.1s;
 }
 
 .gallery > a > figure > figcaption {
@@ -584,7 +586,16 @@ nav > ul > .active > a {
 	right: 0;
 	padding: 0.2em 0.8em;
 	font-size: 1.5rem;
-	background-color: rgba(8, 8, 16, 0.6);
+	background-color: rgba(8, 8, 16, 0.7);
+	transition: color 0.1s;
+}
+
+.gallery > a > figure:hover > img {
+	filter: brightness(80%);
+}
+
+.gallery > a > figure:hover > figcaption {
+	color: #ffa73b;
 }
 
 @media (min-width: 720px) {
