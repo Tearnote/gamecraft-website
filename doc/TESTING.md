@@ -27,7 +27,7 @@ Check the following points to confirm that the website is working as intended:
 -   All text is comfortable to read, with sufficient contrast over the background color/image,
 -   Every link and navigation element leads to the specified destination, or displays a "forbidden" cursor when hovered over,
 -   Anchor links scroll to the correct section of the page, and the heading is not overlapped by the sticky header,
--   **All** of the points above hold true below the tablet (720px) and mobile (480px) breakpoints, down to the lowest supported width of 300px,
+-   **All** of the points above hold true below the tablet (720px) and mobile (480px) breakpoints, down to the lowest supported width of 320px,
 -   Below the 720px breakpoint, the pop-up hamburger menu is always drawn on top of all other content,
 -   **All** of the points above hold true on all four pages of the project,
 -   The form on the Support page requires filling in all fields, has autocomplete for name and email fields, and submits every field to the form dump endpoint.

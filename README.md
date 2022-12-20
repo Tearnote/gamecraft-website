@@ -33,7 +33,7 @@ The features section lists the most important points that distinguish the produc
 
 ![Screenshot of a feature on a mobile screen](doc/responsive.png)
 
-The website's design changes dynamically depending on screen size, all the way down to 300px.
+The website's design changes dynamically depending on screen size, all the way down to 320px.
 
 ![Screenshot of the footer section](doc/footer.png)
 
