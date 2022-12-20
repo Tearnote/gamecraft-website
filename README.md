@@ -31,6 +31,10 @@ The eye-catch section features an attractive scrolling image behind a clear stat
 
 The features section lists the most important points that distinguish the product from the competition.
 
+![Screenshot of a feature on a mobile screen](doc/responsive.png)
+
+The website's design changes dynamically depending on screen size, all the way down to 300px.
+
 ![Screenshot of the footer section](doc/footer.png)
 
 The footer section lists all internal and external links and important section anchors together, as well as business details.
