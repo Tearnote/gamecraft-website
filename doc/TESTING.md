@@ -15,7 +15,7 @@ The Lighthouse report shows a score of 100 in every category:
 
 ![Lighthouse report card](lighthouse.png)
 
-## Manual testing
+## Functional testing
 
 Check the following points to confirm that the website is working as intended:
 
@@ -32,3 +32,22 @@ Check the following points to confirm that the website is working as intended:
 -   **All** of the points above hold true on all four pages of the project.
 
 The site was tested to work properly using this procedure in latest Chrome, Firefox and Edge, as well as mobile Chrome.
+
+## User stories study
+
+In the design phase, we [established](DESIGN.md#user-stories) the expected user-base and what kinds of questions they might have when visiting the website. We will check if their questions are answered by the finished project.
+
+| Question                                                         | Answered? | How?                                                                                    |
+|------------------------------------------------------------------|-----------|-----------------------------------------------------------------------------------------|
+| Can I make a videogame in this?                                  | Yes       | Answered in the eye-catch                                                               |
+| Is it going to be as confusing as the others?                    | Yes       | Addressed by the first feature                                                          |
+| Do I need to make my own graphics and sounds?                    | Yes       | Answered by the projects section, as well as the Asset Store page                       |
+| How much does it cost?                                           | Yes       | Answered in the download section, further detailed in Pricing page                      |
+| If I finish my game, can I sell it?                              | Yes       | Same as above                                                                           |
+| What do I do if I'm stuck with a problem?                        | Yes       | Answered in the download section, further detailed in Support page                      |
+| How do I get started? Should I follow any tutorial alongside it? | Yes       | Answered by the second feature                                                          |
+| Is this a serious product?                                       | Yes       | Suggested by attractive page design, as well as high quality images in projects section |
+| Can you make something complex and professional looking in this? | Yes       | Answered by the projects section                                                        |
+| Why would I want to switch from my current workflow to this?     | Yes       | Answered in the third feature                                                           |
+| Do I get timely support if I encounter a bug?                    | Yes       | Support options and timeframe detailed on the Support page                              |
+| Where can I go in-depth on specific features?                    | Yes       | Options detailed on the Support page                                                    |
