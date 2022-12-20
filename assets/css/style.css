@@ -187,7 +187,7 @@ input[type="submit"] {
 	display: inline-block;
 	font-family: "Poppins", sans-serif;
 	font-size: 1.5rem;
-	font-weight: 700;
+	font-weight: 600;
 	padding: 0.5rem 1.5rem;
 	background: #ffa73b padding-box;
 	color: #080810;
@@ -253,7 +253,7 @@ input[type="submit"]:focus {
 label,
 legend {
 	font-size: 0.9em;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 input:not([type="submit"]),
