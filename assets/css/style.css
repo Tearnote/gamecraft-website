@@ -147,7 +147,7 @@ p > a:visited,
 	/* Move the underline lower by replacing it with a border */
 	text-decoration: none;
 	border-bottom: 1px solid #40ff5d;
-	transition: color 0.1s, border 0.1s;
+	transition: color 0.1s, border-color 0.1s;
 }
 
 p > a:hover,
@@ -196,13 +196,22 @@ input[type="submit"] {
 	text-decoration: none;
 	border: 4px solid transparent;
 	border-radius: 0.4rem;
-	transition: background 0.1s;
+	transition: background-color 0.1s;
 }
 
 a.button.secondary {
 	background: transparent;
 	border: 1px solid #ffa73b;
 	margin: 2px;
+	transition: border-color 0.1s, box-shadow 0.1s;
+}
+
+a.button.secondary:hover {
+	border: 1px solid #c77800;
+}
+
+a.button.secondary:focus {
+	box-shadow: 0 0 0 3px rgba(199, 120, 0, 0.6);
 }
 
 .light a.button.secondary {
@@ -348,7 +357,7 @@ nav > ul > li {
 	padding: 0 0.5rem;
 	margin: 0 0.1rem;
 	border-bottom: 2px solid transparent;
-	transition: border 0.1s;
+	transition: border-color 0.1s;
 }
 
 nav > ul > li > a {
