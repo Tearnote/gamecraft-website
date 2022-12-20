@@ -8,28 +8,37 @@ Live version is available [here](https://tearnote.github.io/gamecraft-website/).
 
 The site features both internal and external links. Since Gamecraft doesn't actually exist, the external links are intentionally non-functional, and are only there to make the site look more believable. You can identify these links on desktop by the cursor changing to the "forbidden" sign when you hover over the link.
 
-For the same reason, images of Gamecraft features and example products are stock images.
+For the same reason, images of Gamecraft features and example projects are stock images rather than real screenshots.
 
 UX design notes are available in [DESIGN.md](doc/DESIGN.md).
 
+## Code conventions
+
+The site uses no frameworks, and the only externally loaded resource is Google Fonts. Layout is done with Flexbox. Images are served in the WebP format, with lossy compression set to 90. All code and text files are formatted with [Prettier](https://prettier.io), with indentation using tabs (not spaces.) The CSS is split into sections with `#section` markers, which can be collapsed in most IDEs and code editors.
+
+The compatibility goal was all commonly used desktop and mobile browsers, updated to the latest or second-latest version. In particular, this means no compatibility with IE11, since it is [out of general support](https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-) since June 15, 2022. The service [Can I use?](https://caniuse.com) was used to ensure that the compatibility goal is met.
+
 ## Bugs
 
-A few issues are present in the website, they will be documented below.
+A few issues are present in the finished website, they will be documented below.
 
 -   **Form autocomplete doesn't match page style**  
-    This issue is caused by browser-specific styles overriding the form control styles when the autocompletion feature is used. The solution would require a lot of research for the right CSS vendor prefixes. Resolving this would take too much time for the benefit.
+    This is caused by browser-specific styles overriding the CSS when the browser's autocompletion feature is used. The solution would require research for the right CSS vendor prefixes to use to style the form controls during autocomplete, and there wasn't time to look deeper into this during project time. A workaround of setting form controls to "light mode" was applied, which improved text legibility in this situation.
+-   **Hamburger menu doesn't have the backdrop blur effect**
+    The area behind the hamburger navigation is not blurred, even though the whole header has the property applied, and the header is a parent of the navigation. This results in a minor decrease to legibility of the navigation on mobile screens in some scenarios. Was not able to find the cause during project time.
 
 ## Validation
 
-The site was tested to work properly in latest Chrome, Firefox and Edge, as well as mobile Chrome. Several features are used that are incompatible with IE11, but this was judged not to be an issue because IE is now fully unsupported by Microsoft.
+The site was tested to work properly in latest Chrome, Firefox and Edge, as well as mobile Chrome.
 
-All project files validated successfully the with HTML checker and CSS checker at https://validator.w3.org/nu. HTML files have information-level alerts about redundant slash in self-closing tags. These are present because the recommended _Prettier_ formatting tool adds the slashes, without an option to turn it off.
+All project files validated successfully the with HTML checker and CSS checker at https://validator.w3.org/nu, aside from caveats documented below:
 
-Additionally, the CSS validation reports `mask` statements as invalid, such as:
-```
-mask: url(../icons/menu.svg) center/cover;
-```
-This appears to be a false positive related to `mask` shorthand parsing. The syntax is correct as per the formal definition at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mask#formal_syntax), the property validates (and still works the same) when split into 3 individual properties (`mask-image`, `mask-position` and `mask-size`), and the [GitHub issue](https://github.com/w3c/css-validator/issues/151) regarding CSS masking implementation in the validator is open, suggesting that the validator doesn't have full support for it yet.
+-   HTML files have information-level alerts about redundant slash in self-closing tags. These are present because the _Prettier_ formatting tool adds the slashes, without an option to turn it off. There is a [long standing issue](https://github.com/prettier/prettier/issues/5246) about this.
+-   The CSS validation reports `mask` statements as invalid, such as:  
+    ```
+    mask: url(../icons/menu.svg) center/cover;
+    ```  
+    This appears to be a false positive related to `mask` shorthand parsing. The syntax is correct as per the formal definition at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mask#formal_syntax), the property validates (and still works the same) when split into 3 individual properties (`mask-image`, `mask-position` and `mask-size`), and the [GitHub issue](https://github.com/w3c/css-validator/issues/151) regarding CSS masking implementation in the validator is open, suggesting that the validator doesn't have full support for it yet.
 
 The Lighthouse report shows a score of 100 in every category:
 
@@ -37,7 +46,7 @@ The Lighthouse report shows a score of 100 in every category:
 
 ## Attribution
 
-No frameworks are used. All external code snippets are attributed inline.
+All external code snippets are attributed inline.
 
 Stock images:
 
