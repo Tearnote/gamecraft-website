@@ -398,6 +398,7 @@ nav > ul > .active > a {
 		z-index: 11;
 	}
 
+	/* The mask is a workaround to change the color of the icon */
 	.burger-toggle ~ .burger-icon {
 		-webkit-mask: url(../icons/menu.svg) center/cover;
 		mask: url(../icons/menu.svg) center/cover;
