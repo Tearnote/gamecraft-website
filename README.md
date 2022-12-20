@@ -68,7 +68,7 @@ A few issues are present in the finished website, they will be documented below.
 -   **Form autocomplete doesn't match page style**  
     This is caused by browser-specific styles overriding the CSS when the browser's autocompletion feature is used. The solution would require research for the right CSS vendor prefixes to use to style the form controls during autocomplete, and there wasn't time to look deeper into this during project time. A workaround of setting form controls to "light mode" was applied, which improved text legibility in this situation.
 -   **Hamburger menu doesn't have the backdrop blur effect**  
-    The area behind the hamburger navigation is not blurred, even though the whole header has the property applied, and the header is a parent of the navigation. This results in a minor decrease to legibility of the navigation on mobile screens in some scenarios. Was not able to find the cause during project time.
+    The area behind the hamburger navigation is not blurred, even though the whole header has the property applied, and the header is a parent of the navigation. This results in a minor decrease to legibility of the navigation on mobile screens in some scenarios. Was not able to find the cause during project time. A workaround was applied to increase the background opacity and keep text legible.
 
 ## Attribution
 

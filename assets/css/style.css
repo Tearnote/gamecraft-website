@@ -423,7 +423,7 @@ nav > ul > .active > a {
 
 	header > nav > ul {
 		display: none;
-		background-color: rgba(8, 8, 16, 0.4);
+		background-color: rgba(8, 8, 16, 0.6);
 	}
 
 	.burger-toggle:checked ~ ul {
