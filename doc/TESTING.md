@@ -29,7 +29,8 @@ Check the following points to confirm that the website is working as intended:
 -   Anchor links scroll to the correct section of the page, and the heading is not overlapped by the sticky header,
 -   **All** of the points above hold true below the tablet (720px) and mobile (480px) breakpoints, down to the lowest supported width of 300px,
 -   Below the 720px breakpoint, the pop-up hamburger menu is always drawn on top of all other content,
--   **All** of the points above hold true on all four pages of the project.
+-   **All** of the points above hold true on all four pages of the project,
+-   The form on the Support page requires filling in all fields, has autocomplete for name and email fields, and submits every field to the form dump endpoint.
 
 The site was tested to work properly using this procedure in latest Chrome, Firefox and Edge, as well as mobile Chrome.
 
