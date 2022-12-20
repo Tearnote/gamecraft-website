@@ -323,6 +323,10 @@ header {
 	font-size: 2.5rem;
 }
 
+.logo:hover {
+	color: #ffa73b;
+}
+
 header > h1 > a {
 	text-decoration: none;
 }
