@@ -1,5 +1,7 @@
 # Gamecraft: a portfolio website in pure HTML5+CSS3
 
+![Mock-up of the website on desktop, table and mobile screens](doc/mockup.png)
+
 This is a static website for a fictional videogame creation tool called _Gamecraft_, made for [Code Institute](https://codeinstitute.net)'s 1st submission project.
 
 [Live version is available here.](https://tearnote.github.io/gamecraft-website/)
