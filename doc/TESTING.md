@@ -1,6 +1,6 @@
 # Gamecraft - Testing notes
 
-## Automatic validation
+## Validation
 
 All project files validated successfully the with HTML checker and CSS checker at https://validator.w3.org/nu, aside from caveats documented below:
 
@@ -15,7 +15,7 @@ The Lighthouse report shows a score of 100 in every category:
 
 ![Lighthouse report card](lighthouse.png)
 
-## Functional testing
+## Testing
 
 Check the following points to confirm that the website is working as intended:
 

@@ -49,7 +49,7 @@ In particular, the commonly seen page sections are:
 -   Do I get timely support if I encounter a bug?
 -   Where can I go in-depth on specific features?
 
-## Project scope
+## Scope
 
 To satisfy the target users, these goals are essential:
 
@@ -75,7 +75,7 @@ The project is subject to these limitations:
 -   Gamecraft is a fictional product, so images of features and projects must be replaced with stock alternatives,
 -   The project must be finished in two weeks, so not all planned features might make it in.
 
-## Site structure
+## Structure
 
 To fit with the industry standard researched [above](#market-research), the site should mirror the structure of competing products. That is to say, the general structure is hub-and-spoke, with the frontpage serving as the main source of information, providing the user with product details in order from the most general to more specific as they scroll from top to bottom. Any section the user might want to know even more about links to a separage page which goes into extreme detail on the single specific feature.
 
