@@ -1,6 +1,6 @@
-# Gamecraft: a portfolio website
+# Gamecraft: a portfolio website in pure HTML5+CSS3
 
-This is a static website for a fictional videogame creation tool called _Gamecraft_. This imaginary program runs on Windows, and allows anyone to create a videogame though a fully visual interface rather than by writing lines of code. An asset store with a wealth of free content is also available, so the user doesn't need to be a visual artist or sound designer either. All that's needed is an idea and a bit of effort.
+This is a static website for a fictional videogame creation tool called _Gamecraft_, made for [Code Institute](https://codeinstitute.net)'s 1st submission project.
 
 Live version is available [here](https://tearnote.github.io/gamecraft-website/).
 
@@ -144,6 +144,8 @@ A few issues are present in the website, they will be documented below.
 
 ## Validation
 
+The site was tested to work properly in latest Chrome, Firefox and Edge, as well as mobile Chrome. Several features are used that are incompatible with IE11, but this was judged not to be an issue because IE is now fully unsupported by Microsoft.
+
 All project files validated successfully the with HTML checker and CSS checker at https://validator.w3.org/nu. HTML files have information-level alerts about redundant slash in self-closing tags. These are present because the recommended _Prettier_ formatting tool adds the slashes, without an option to turn it off.
 
 Additionally, the CSS validation reports `mask` statements as invalid, such as:
@@ -157,6 +159,8 @@ The Lighthouse report shows a score of 100 in every category:
 ![Lighthouse report card](doc/lighthouse.png)
 
 ## Attribution
+
+No frameworks are used. All external code snippets are attributed inline.
 
 Stock images:
 
