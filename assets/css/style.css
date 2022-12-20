@@ -147,6 +147,7 @@ p > a:visited,
 	/* Move the underline lower by replacing it with a border */
 	text-decoration: none;
 	border-bottom: 1px solid #40ff5d;
+	transition: color 0.1s, border 0.1s;
 }
 
 p > a:hover,
@@ -195,6 +196,7 @@ input[type="submit"] {
 	text-decoration: none;
 	border: 4px solid transparent;
 	border-radius: 0.4rem;
+	transition: background 0.1s;
 }
 
 a.button.secondary {
@@ -321,6 +323,7 @@ header {
 	text-decoration: none;
 	margin-left: 1rem;
 	font-size: 2.5rem;
+	transition: color 0.1s;
 }
 
 .logo:hover {
