@@ -196,6 +196,7 @@ input[type="submit"] {
 	text-decoration: none;
 	border: none;
 	border-radius: 0.4rem;
+	box-shadow: 0 0 0 0 rgba(199, 120, 0, 0.6);
 	transition: background-color 0.1s, box-shadow 0.1s;
 }
 
