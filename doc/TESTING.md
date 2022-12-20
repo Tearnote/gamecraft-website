@@ -2,7 +2,7 @@
 
 ## Validation
 
-All project files validated successfully the with HTML checker and CSS checker at https://validator.w3.org/nu, aside from caveats documented below:
+All project files validated successfully with the [HTML and CSS checker](https://validator.w3.org/nu), aside from caveats documented below:
 
 -   HTML files have information-level alerts about redundant slash in self-closing tags. These are present because the _Prettier_ formatting tool adds the slashes, without an option to turn it off. There is a [long standing issue](https://github.com/prettier/prettier/issues/5246) about this.
 -   The CSS validation reports `mask` statements as invalid, such as:  
