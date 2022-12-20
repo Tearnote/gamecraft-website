@@ -789,6 +789,11 @@ footer > div > h3 {
 
 .links > ul > li > a {
 	text-decoration: none;
+	transition: color 0.1s;
+}
+
+.links > ul > li > a:hover {
+	color: rgba(239, 239, 248, 0.6);
 }
 
 @media (min-width: 720px) {
