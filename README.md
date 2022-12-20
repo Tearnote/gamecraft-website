@@ -68,7 +68,7 @@ A few issues are present in the finished website, they will be documented below.
 -   **Form autocomplete doesn't match page style**  
     This is caused by browser-specific styles overriding the CSS when the browser's autocompletion feature is used. The solution would require research for the right CSS vendor prefixes to use to style the form controls during autocomplete, and there wasn't time to look deeper into this during project time. A workaround of setting form controls to "light mode" was applied, which improved text legibility in this situation.
 -   **Hamburger menu doesn't have the backdrop blur effect**  
-    The area behind the hamburger navigation is not blurred, even though the whole header has the property applied, and the header is a parent of the navigation. This results in a minor decrease to legibility of the navigation on mobile screens in some scenarios. Was not able to find the cause during project time. A workaround was applied to increase the background opacity and keep text legible.
+    The area behind the hamburger navigation was not blurred, even though the whole header had the property applied, and the header is a parent of the navigation. This resulted in a minor decrease to legibility of the navigation on mobile screens in some scenarios. Was not able to find the cause during project time. As a workaround, a darker background was applied to the header and the navigation, replacing the blur effect entirely.
 -   **Button outline on click effect not working on mobile in some cases**  
     Works on some buttons, but not others. Cause is unknown, as it works on desktop even with the same simulated screen size. Most likely a rendering quirk. Very little impact, since the focus state is less relevant on mobile.
 
