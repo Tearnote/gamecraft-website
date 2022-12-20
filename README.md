@@ -2,7 +2,7 @@
 
 This is a static website for a fictional videogame creation tool called _Gamecraft_, made for [Code Institute](https://codeinstitute.net)'s 1st submission project.
 
-Live version is available [here](https://tearnote.github.io/gamecraft-website/).
+[Live version is available here.](https://tearnote.github.io/gamecraft-website/)
 
 ## Notes
 
@@ -11,6 +11,8 @@ The site features both internal and external links. Since Gamecraft doesn't actu
 For the same reason, images of Gamecraft features and example projects are stock images rather than real screenshots.
 
 UX design notes are available in [DESIGN.md](doc/DESIGN.md).
+
+The testing procedures are described in [TESTING.md](doc/TESTING.md).
 
 ## Code conventions
 
@@ -26,23 +28,6 @@ A few issues are present in the finished website, they will be documented below.
     This is caused by browser-specific styles overriding the CSS when the browser's autocompletion feature is used. The solution would require research for the right CSS vendor prefixes to use to style the form controls during autocomplete, and there wasn't time to look deeper into this during project time. A workaround of setting form controls to "light mode" was applied, which improved text legibility in this situation.
 -   **Hamburger menu doesn't have the backdrop blur effect**  
     The area behind the hamburger navigation is not blurred, even though the whole header has the property applied, and the header is a parent of the navigation. This results in a minor decrease to legibility of the navigation on mobile screens in some scenarios. Was not able to find the cause during project time.
-
-## Validation
-
-The site was tested to work properly in latest Chrome, Firefox and Edge, as well as mobile Chrome.
-
-All project files validated successfully the with HTML checker and CSS checker at https://validator.w3.org/nu, aside from caveats documented below:
-
--   HTML files have information-level alerts about redundant slash in self-closing tags. These are present because the _Prettier_ formatting tool adds the slashes, without an option to turn it off. There is a [long standing issue](https://github.com/prettier/prettier/issues/5246) about this.
--   The CSS validation reports `mask` statements as invalid, such as:  
-    ```
-    mask: url(../icons/menu.svg) center/cover;
-    ```  
-    This appears to be a false positive related to `mask` shorthand parsing. The syntax is correct as per the formal definition at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mask#formal_syntax), the property validates (and still works the same) when split into 3 individual properties (`mask-image`, `mask-position` and `mask-size`), and the [GitHub issue](https://github.com/w3c/css-validator/issues/151) regarding CSS masking implementation in the validator is open, suggesting that the validator doesn't have full support for it yet.
-
-The Lighthouse report shows a score of 100 in every category:
-
-![Lighthouse report card](doc/lighthouse.png)
 
 ## Attribution
 
