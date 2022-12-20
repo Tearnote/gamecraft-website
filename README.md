@@ -16,6 +16,37 @@ UX design notes are available in [DESIGN.md](doc/DESIGN.md).
 
 The testing procedures are described in [TESTING.md](doc/TESTING.md).
 
+## Features
+
+![Screenshot of the site header on desktop](doc/header-desktop.png)
+![Screenshot of the site header on mobile](doc/header-mobile.png)
+
+Site can be navigated using the sticky header (which collapses into a hamburger menu on smaller screens,) as well as inline links to related content.
+
+![Screenshot of the eye-catch section](doc/eyecatch.png)
+
+The eye-catch section features an attractive scrolling image behind a clear statement of purpose and immediate call to action.
+
+![Screenshot of the features section](doc/features.png)
+
+The features section lists the most important points that distinguish the product from the competition.
+
+![Screenshot of the footer section](doc/footer.png)
+
+The footer section lists all internal and external links and important section anchors together, as well as business details.
+
+![Screenshot of the Asset Store page](doc/asset-store.png)
+
+The Asset Store page showcases thumbnails of some 3D models featured in the product, with a link to access the full store within the product itself.
+
+![Screenshot of the Pricing page](doc/pricing.png)
+
+The Pricing page features a pricing table with clearly defined tiers.
+
+![Screenshot of the contact form on the Support page](doc/support-form.png)
+
+The Support page contains a contact form, with field validation and browser auto-complete support. The form is sent to a "form dump" endpoint.
+
 ## Code conventions
 
 The site uses no frameworks, and the only externally loaded resource is Google Fonts. Layout is done with Flexbox. Images are served in the WebP format, with lossy compression set to 90. All code and text files are formatted with [Prettier](https://prettier.io), with indentation using tabs (not spaces.) The CSS is split into sections with `#section` markers, which can be collapsed in most IDEs and code editors.
