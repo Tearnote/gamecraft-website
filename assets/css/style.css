@@ -355,23 +355,23 @@ nav > ul {
 
 nav > ul > li {
 	display: inline-block;
-	padding: 0 0.5rem;
 	margin: 0 0.1rem;
-	border-bottom: 2px solid transparent;
-	transition: border-color 0.1s;
 }
 
 nav > ul > li > a {
+	padding: 0.25rem 0.5rem;
 	font-size: 1.4rem;
 	color: #efeff8;
+	border-bottom: 2px solid transparent;
 	text-decoration: none;
+	transition: border-color 0.1s;
 }
 
-nav > ul > :hover {
+nav > ul > li > a:hover {
 	border-bottom: 2px solid #efeff8;
 }
 
-nav > ul > .active {
+nav > ul > li.active > a {
 	border-bottom: 2px solid #ffa73b;
 }
 
@@ -440,21 +440,35 @@ nav > ul > .active > a {
 		display: block;
 	}
 
-	header > nav > ul > li {
+	nav > ul > li {
 		display: block;
 		padding: 0.25rem 0.75rem;
+		margin: 0;
 		border-bottom: none;
 		border-right: 2px solid transparent;
 	}
 
-	header > nav > ul > li:hover {
+	nav > ul > li:hover {
 		border-bottom: none;
 		border-right: 2px solid #efeff8;
 	}
 
-	header > nav > ul > li.active {
+	nav > ul > li.active {
 		border-bottom: none;
 		border-right: 2px solid #ffa73b;
+	}
+
+	nav > ul > li > a {
+		border: none;
+		padding: 0.25rem 0;
+	}
+
+	nav > ul > li > a:hover {
+		border: none;
+	}
+
+	nav > ul > li.active > a {
+		border: none;
 	}
 }
 
