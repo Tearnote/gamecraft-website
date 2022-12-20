@@ -57,6 +57,10 @@ The site uses no frameworks, and the only externally loaded resource is Google F
 
 The compatibility goal was all commonly used desktop and mobile browsers, updated to the latest or second-latest version. In particular, this means no compatibility with IE11, since it is [out of general support](https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-) since June 15, 2022. The service [Can I use?](https://caniuse.com) was used to ensure that the compatibility goal is met.
 
+## Deployment
+
+As this is a fully static website (no server component), it can be trivially deployed to any file hosting service. For the purpose of this project, the live version is deployed via GitHub Pages.
+
 ## Bugs
 
 A few issues are present in the finished website, they will be documented below.
