@@ -504,6 +504,8 @@ nav > ul > .active > a {
 	padding: 1rem 1.5rem;
 	background: rgba(8, 8, 16, 0.6);
 	backdrop-filter: blur(1rem);
+	/* https://getcssscan.com/css-box-shadow-examples #30 */
+	box-shadow: rgba(8, 8, 16, 0.25) 0px 14px 28px, rgba(8, 8, 16, 0.22) 0px 10px 10px;
 }
 
 .hero-box > * {
@@ -973,6 +975,8 @@ footer > div > h3 {
 	flex: 1 0 0;
 	padding: 1rem 2rem;
 	background-color: #efeff8;
+	/* https://getcssscan.com/css-box-shadow-examples #30 */
+	box-shadow: rgba(8, 8, 16, 0.25) 0px 14px 28px, rgba(8, 8, 16, 0.22) 0px 10px 10px;
 }
 
 .tier.dark {
@@ -1086,6 +1090,8 @@ footer > div > h3 {
 	flex-flow: column;
 	align-items: center;
 	background-color: #efeff8;
+	/* https://getcssscan.com/css-box-shadow-examples #30 */
+	box-shadow: rgba(8, 8, 16, 0.25) 0px 14px 28px, rgba(8, 8, 16, 0.22) 0px 10px 10px;
 }
 
 .support-method > form > label,
