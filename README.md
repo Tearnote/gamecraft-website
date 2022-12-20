@@ -4,6 +4,10 @@ This is a static website for a fictional videogame creation tool called _Gamecra
 
 Live version is available [here](https://tearnote.github.io/gamecraft-website/).
 
+## Notes
+
+The site features both internal and external links. Since Gamecraft doesn't actually exist, the external links are intentionally non-functional, and are only there to make the site look more believable. You can identify these links on desktop by the cursor changing to the "forbidden" sign when you hover over the link.
+
 ## Motivation
 
 Most people who play videogames want to create one themselves at some point. However, the need to learn a programming language and use complicated engines discourages the majority of them from ever giving it a try. Even tools meant for less technical users often overwhelm beginners with countless menus and buttons, and can only be deciphered through persistence and video tutorials. There is a market gap for a program which focuses on learnability as its core principle, and this is the gap that Gamecraft aims to fill. This needs to be accomplished without sacrificing the feature set or reducing attractiveness to more experienced creators.
@@ -110,7 +114,7 @@ The site will also link to a large number of resources which are not included in
 
 The majority of the site will use bright text on a dark background, which inspires confidence as it's the typical color scheme in productivity software. However, some sections of the site might invert this to accent a non-technical section, such as user support.
 
-The color palette needs to feel pleasant and welcoming, but also inspire confidence in the product quality. This will be achieved with a main palette consisting of slightlyl blue-shifted backgrounds and primary text colors, but warm pastels for the accents.
+The color palette needs to feel pleasant and welcoming, but also inspire confidence in the product quality. This will be achieved with a main palette consisting of slightly blue-shifted backgrounds and primary text colors, but warm pastels for the accents.
 
 Colors used are as follows:
 
@@ -131,7 +135,9 @@ Colors used are as follows:
 
 (Live version of the swatch available [here](https://tearnote.github.io/gamecraft-website/doc/swatch.html).)
 
-Similarly, the font needs to be clear and inviting. The headers will use [Poppins SemiBold 600](https://fonts.google.com/specimen/Poppins) for its simple geometric forms, and the main content will use the highly legible [Quicksand Regular 400](https://fonts.google.com/specimen/Quicksand), which contrasts it with a thinner weight and friendly rounded strokes.
+Similarly, the font needs to be clear and inviting. The headers will use [Poppins SemiBold 600](https://fonts.google.com/specimen/Poppins) for its simple geometric forms, and the main content will use the highly legible [Quicksand Regular 400](https://fonts.google.com/specimen/Quicksand), which contrasts it with a thinner weight and friendly rounded strokes. The font is very large for headers to assist in quickly scanning the page for sections the user is looking for, though they get smaller on mobile displays.
+
+The design of the site features bold vertical and horizontal lines, guiding the user's line of sight as an allegory for Gamecraft being focused on learnability and guidance - "we'll tell you where to go."
 
 ![Illustration of the font pairing](doc/fonts.png)
 
@@ -152,7 +158,7 @@ Additionally, the CSS validation reports `mask` statements as invalid, such as:
 ```
 mask: url(../icons/menu.svg) center/cover;
 ```
-This appears to be a false positive related to `mask` shorthand parsing. The syntax is correct as per the formal definition at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mask#formal_syntax), the property works when split into 3 individual properties (`mask-image`, `mask-position` and `mask-size`), and the [GitHub issue](https://github.com/w3c/css-validator/issues/151) regarding CSS masking implementation in the validator is open.
+This appears to be a false positive related to `mask` shorthand parsing. The syntax is correct as per the formal definition at [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/mask#formal_syntax), the property validates (and still works the same) when split into 3 individual properties (`mask-image`, `mask-position` and `mask-size`), and the [GitHub issue](https://github.com/w3c/css-validator/issues/151) regarding CSS masking implementation in the validator is open, suggesting that the validator doesn't have full support for it yet.
 
 The Lighthouse report shows a score of 100 in every category:
 
