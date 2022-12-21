@@ -18,36 +18,36 @@ The site has been automatically validated and manually tested. The testing proce
 
 ## Highlights
 
-![Screenshot of the site header on desktop](doc/header-desktop.png)
-![Screenshot of the site header on mobile](doc/header-mobile.png)
+![Screenshot of the site header on desktop](doc/highlights/header-desktop.png)
+![Screenshot of the site header on mobile](doc/highlights/header-mobile.png)
 
 Site can be navigated using the sticky header (which collapses into a hamburger menu on smaller screens,) as well as inline links to related content.
 
-![Screenshot of the eye-catch section](doc/eyecatch.png)
+![Screenshot of the eye-catch section](doc/highlights/eyecatch.png)
 
 The eye-catch section features an attractive scrolling image behind a clear statement of purpose and immediate call to action.
 
-![Screenshot of the features section](doc/features.png)
+![Screenshot of the features section](doc/highlights/features.png)
 
 The features section lists the most important points that distinguish the product from the competition.
 
-![Screenshot of a feature on a mobile screen](doc/responsive.png)
+![Screenshot of a feature on a mobile screen](doc/highlights/responsive.png)
 
 The website's design changes dynamically depending on screen size, all the way down to 320px.
 
-![Screenshot of the footer section](doc/footer.png)
+![Screenshot of the footer section](doc/highlights/footer.png)
 
 The footer section lists all internal and external links and important section anchors together, as well as business details.
 
-![Screenshot of the Asset Store page](doc/asset-store.png)
+![Screenshot of the Asset Store page](doc/highlights/asset-store.png)
 
 The Asset Store page showcases thumbnails of some 3D models featured in the product, with a link to access the full store within the product itself.
 
-![Screenshot of the Pricing page](doc/pricing.png)
+![Screenshot of the Pricing page](doc/highlights/pricing.png)
 
 The Pricing page features a pricing table with clearly defined tiers.
 
-![Screenshot of the contact form on the Support page](doc/support-form.png)
+![Screenshot of the contact form on the Support page](doc/highlights/support-form.png)
 
 The Support page contains a contact form, with field validation and browser auto-complete support. The form is sent to a "form dump" endpoint.
 
