@@ -76,6 +76,7 @@ The compatibility goal was all commonly used desktop and mobile browsers, update
    - `assets/css`: CSS files
    - `assets/images`: WebP images served by the HTML pages
    - `assets/icons`: SVG images used as icons by the HTML pages
+   - `assets/audio`: Opus audio playable on HTML pages, with MP3 version as fallback
    - `doc`: Additional Markdown files, PNG images used by Markdown files, any additional documentation files
 
 </details>
@@ -116,5 +117,8 @@ All external code snippets are attributed inline.
 -   `hand.webp` by [cottonbro CG studio](https://www.pexels.com/photo/persons-hand-doing-peace-sign-8832763/)
 
 </details>
+
+-   `gunshot.opus` by [deleted_user_2104797](https://freesound.org/people/deleted_user_2104797/sounds/164667/)
+-   `sheep.opus` by [klankbeeld](https://freesound.org/people/klankbeeld/sounds/515876/)
 
 [SVG icons](assets/icons): [CSS.gg](https://css.gg/)

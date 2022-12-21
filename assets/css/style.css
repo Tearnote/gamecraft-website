@@ -895,8 +895,29 @@ footer > div > h3 {
 	margin: 0.5rem;
 }
 
-.preview-list > figure > img {
+.preview-list > figure > img,
+.preview-list > figure > button {
+	width: 100%;
+	height: 100%;
 	border-radius: 1.2rem;
+}
+
+.preview-list > figure > button {
+	border: none;
+	background-color: #40ff5d;
+}
+
+.preview-list > figure > button:hover {
+	background-color: #00ca28;
+}
+
+.preview-list > figure > button:focus {
+	box-shadow: 0 0 0 4px rgba(0, 202, 40, 0.6);
+}
+
+.preview-list > figure > button > img {
+	width: 100%;
+	height: 100%;
 }
 
 @media (max-width: 720px) {
