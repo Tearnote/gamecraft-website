@@ -85,28 +85,28 @@ The site will also link to a number of resources which are not included in the p
 
 <details><summary>Home</summary>
 
-![Wireframe of the top of the frontpage](wire-landing.png)
-![Wireframe of the features section of the frontpage](wire-features.png)
-![Wireframe of the projects showcase on the frontpage](wire-projects.png)
-![Wireframe of the frontpage footer section](wire-footer.png)
+![Wireframe of the top of the frontpage](wireframes/landing.png)
+![Wireframe of the features section of the frontpage](wireframes/features.png)
+![Wireframe of the projects showcase on the frontpage](wireframes/projects.png)
+![Wireframe of the frontpage footer section](wireframes/footer.png)
 
 </details>
 
 <details><summary>Asset Store</summary>
 
-![Wireframe of the asset store](wire-asset-store.png)
+![Wireframe of the asset store](wireframes/asset-store.png)
 
 </details>
 
 <details><summary>Pricing</summary>
 
-![Wireframe of the pricing page](wire-pricing.png)
+![Wireframe of the pricing page](wireframes/pricing.png)
 
 </details>
 
 <details><summary>Support</summary>
 
-![Wireframe of the support page](wire-support.png)
+![Wireframe of the support page](wireframes/support.png)
 
 </details>
 
