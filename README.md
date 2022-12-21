@@ -78,6 +78,8 @@ The compatibility goal was all commonly used desktop and mobile browsers, update
    - `assets/icons`: SVG images used as icons by the HTML pages
    - `doc`: Additional Markdown files, PNG images used by Markdown files, any additional documentation files
 
+</details>
+
 ## Deployment
 
 As this is a fully static website (no server component), it can be trivially deployed to any file hosting service. For the purpose of this project, the [live version](https://tearnote.github.io/gamecraft-website/) is deployed via GitHub Pages.
