@@ -12,9 +12,11 @@ The site features both internal and external links. Since Gamecraft doesn't actu
 
 For the same reason, images of Gamecraft features and example projects are stock images rather than real screenshots.
 
-[DESIGN.md](doc/DESIGN.md): UX design notes crafted during early stages of development. The design process is described entirely, from basic premise and market research, through information structuring to visual design principles and color palettes.
+The documentation is split across three files:
 
-[TESTING.md](doc/TESTING.md): Testing procedures. The site has been automatically validated and manually tested with procedures noted down in this file.
+-   [README.md](README.md) (this file): Overview of the website. Read this to get an idea of the basic structure, technologies used and project conventions.
+-   [DESIGN.md](doc/DESIGN.md): UX design notes crafted during early stages of development. The design process is described entirely, from basic premise and market research, through information structuring to visual design principles and color palettes.
+-   [TESTING.md](doc/TESTING.md): Testing procedures. The site has been automatically validated and manually tested with procedures noted down in this file.
 
 ## Highlights
 
