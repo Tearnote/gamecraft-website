@@ -51,6 +51,19 @@ The Pricing page features a pricing table with clearly defined tiers.
 
 The Support page contains a contact form, with field validation and browser auto-complete support. The form is sent to a "form dump" endpoint.
 
+## Technologies used
+
+-   HTML5
+    -   Semantic tags used whenever applicable
+    -   [Images](#attribution) served as WebP
+    -   [Fonts](doc/DESIGN.md#design-language) from Google Fonts
+    -   No redundant containers for styling purposes
+-   CSS3
+    -   Layout with Flexbox and border-box sizing
+    -   Transitions and animations
+    -   Box shadows, gradients and backdrop filters
+    -   Media queries for responsive design
+
 ## Conventions
 
 The site uses no frameworks, and the only externally loaded resource is Google Fonts. Layout is done with Flexbox. Images are served in the WebP format, with lossy compression set to 90. All code and text files are formatted with [Prettier](https://prettier.io), with indentation using tabs (not spaces.) The CSS is split into sections with `#section` markers, which can be collapsed in most IDEs and code editors.
