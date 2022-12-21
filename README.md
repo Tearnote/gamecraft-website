@@ -6,15 +6,15 @@ This is a static website for a fictional videogame creation tool called _Gamecra
 
 [Live version is available here.](https://tearnote.github.io/gamecraft-website/)
 
-## Notes
+## Important notes
 
 The site features both internal and external links. Since Gamecraft doesn't actually exist, the external links are intentionally non-functional, and are only there to make the site look more believable. You can identify these links on desktop by the cursor changing to the "forbidden" sign when you hover over the link.
 
 For the same reason, images of Gamecraft features and example projects are stock images rather than real screenshots.
 
-UX design notes are available in [DESIGN.md](doc/DESIGN.md).
+UX design notes are available in [DESIGN.md](doc/DESIGN.md). The design process is described entirely, from basic premise and market research, through information structuring to visual design principles and color palettes.
 
-The testing procedures are described in [TESTING.md](doc/TESTING.md).
+The site has been automatically validated and manually tested. The testing procedures are described in [TESTING.md](doc/TESTING.md).
 
 ## Highlights
 
