@@ -15,6 +15,8 @@ The Lighthouse report shows a score of 100 in every category:
 
 ![Lighthouse report card](lighthouse.png)
 
+The only exception is 96 in "Performance" on Support page, caused by flexbox section reflow on load.
+
 ## Testing
 
 Check the following points to confirm that the website is working as intended:
