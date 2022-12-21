@@ -12,9 +12,9 @@ The site features both internal and external links. Since Gamecraft doesn't actu
 
 For the same reason, images of Gamecraft features and example projects are stock images rather than real screenshots.
 
-UX design notes are available in [DESIGN.md](doc/DESIGN.md). The design process is described entirely, from basic premise and market research, through information structuring to visual design principles and color palettes.
+[DESIGN.md](doc/DESIGN.md): UX design notes crafted during early stages of development. The design process is described entirely, from basic premise and market research, through information structuring to visual design principles and color palettes.
 
-The site has been automatically validated and manually tested. The testing procedures are described in [TESTING.md](doc/TESTING.md).
+[TESTING.md](doc/TESTING.md): Testing procedures. The site has been automatically validated and manually tested with procedures noted down in this file.
 
 ## Highlights
 
@@ -51,32 +51,30 @@ The Pricing page features a pricing table with clearly defined tiers.
 
 The Support page contains a contact form, with field validation and browser auto-complete support. The form is sent to a "form dump" endpoint.
 
-## Technologies used
+## Technologies
 
 -   HTML5
     -   Semantic tags used whenever applicable
-    -   [Images](#attribution) served as WebP
+    -   [Images](#attribution) served as WebP for smaller download size
     -   [Fonts](doc/DESIGN.md#design-language) from Google Fonts
     -   No redundant containers for styling purposes
 -   CSS3
     -   Layout with Flexbox and border-box sizing
-    -   Transitions and animations
-    -   Box shadows, gradients and backdrop filters
+    -   Transitions and animations to make interaction more pleasant
+    -   Box shadows, gradients and backdrop filters to help with text readability and intuitive flow
     -   Media queries for responsive design
 
-## Conventions
-
-The site uses no frameworks, and the only externally loaded resource is Google Fonts. Layout is done with Flexbox. Images are served in the WebP format, with lossy compression set to 90. All code and text files are formatted with [Prettier](https://prettier.io), with indentation using tabs (not spaces.) The CSS is split into sections with `#section` markers, which can be collapsed in most IDEs and code editors.
+The site uses no frameworks, and the only externally loaded resources are the fonts. WebP images are exported with lossy compression set to 90. All code and text files are formatted with [Prettier](https://prettier.io), with indentation using tabs (not spaces.) The CSS is split into sections with `#section` markers, which can be collapsed in most IDEs and code editors.
 
 The compatibility goal was all commonly used desktop and mobile browsers, updated to the latest or second-latest version. In particular, this means no compatibility with IE11, since it is [out of general support](https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-) since June 15, 2022. The service [Can I use?](https://caniuse.com) was used to ensure that the compatibility goal is met.
 
 ## Deployment
 
-As this is a fully static website (no server component), it can be trivially deployed to any file hosting service. For the purpose of this project, the live version is deployed via GitHub Pages.
+As this is a fully static website (no server component), it can be trivially deployed to any file hosting service. For the purpose of this project, the [live version](https://tearnote.github.io/gamecraft-website/) is deployed via GitHub Pages.
 
 ## Bugs
 
-A few issues are present in the finished website, they will be documented below.
+A few issues were encountered during development, they are documented below.
 
 -   **Form autocomplete doesn't match page style**  
     This is caused by browser-specific styles overriding the CSS when the browser's autocompletion feature is used. The solution would require research for the right CSS vendor prefixes to use to style the form controls during autocomplete, and there wasn't time to look deeper into this during project time. A workaround of setting form controls to "light mode" was applied, which improved text legibility in this situation.
