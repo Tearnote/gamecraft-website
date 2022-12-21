@@ -83,24 +83,32 @@ The site will also link to a number of resources which are not included in the p
 
 ## Wireframes
 
-### Home
+<details><summary>Home</summary>
 
 ![Wireframe of the top of the frontpage](wire-landing.png)
 ![Wireframe of the features section of the frontpage](wire-features.png)
 ![Wireframe of the projects showcase on the frontpage](wire-projects.png)
 ![Wireframe of the frontpage footer section](wire-footer.png)
 
-### Asset store
+</details>
+
+<details><summary>Asset Store</summary>
 
 ![Wireframe of the asset store](wire-asset-store.png)
 
-### Pricing
+</details>
+
+<details><summary>Pricing</summary>
 
 ![Wireframe of the pricing page](wire-pricing.png)
 
-### Support
+</details>
+
+<details><summary>Support</summary>
 
 ![Wireframe of the support page](wire-support.png)
+
+</details>
 
 ## Design language
 
@@ -108,7 +116,7 @@ The majority of the site will use bright text on a dark background, which inspir
 
 The color palette needs to feel pleasant and welcoming, but also inspire confidence in the product quality. This will be achieved with a main palette consisting of slightly blue-shifted backgrounds and primary text colors, but warm pastels for the accents.
 
-Colors used are as follows:
+<details><summary>Color palette hex codes</summary>
 
 -   Dark mode background: `#080810`
 -   Dark mode text: `#efeff8`
@@ -122,6 +130,8 @@ Colors used are as follows:
 -   Light mode primary accent (lighter): `#c17131`
 -   Light mode secondary accent: `#005e0c`
 -   Light mode secondary accent (lighter): `#3f8c3a`
+
+</details>
 
 ![Color scheme swatch](swatch.png)
 

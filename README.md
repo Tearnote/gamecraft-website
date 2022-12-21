@@ -1,4 +1,4 @@
-# Gamecraft: a portfolio website in pure HTML5+CSS3
+# Gamecraft: a portfolio website
 
 ![Mock-up of the website on desktop, table and mobile screens](doc/mockup.png)
 
@@ -76,7 +76,7 @@ A few issues are present in the finished website, they will be documented below.
 
 All external code snippets are attributed inline.
 
-Stock images:
+<details><summary>Stock images</summary>
 
 -   `hero.webp` by [Patricio González](https://pixabay.com/users/patolenin-991181/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6741424) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6741424)
 -   `feature1.webp` by [Stefano Intintoli](https://unsplash.com/@stefano_intintoli?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
@@ -91,5 +91,7 @@ Stock images:
 -   `cart.webp` by [emirhan bal](https://pixabay.com/users/7898250-7898250/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3248226) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3248226)
 -   `cat.webp` by [Andy Hermawan](https://unsplash.com/@kolamdigital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 -   `hand.webp` by [cottonbro CG studio](https://www.pexels.com/photo/persons-hand-doing-peace-sign-8832763/)
+
+</details>
 
 [SVG icons](assets/icons): [CSS.gg](https://css.gg/)
