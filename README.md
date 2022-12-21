@@ -43,7 +43,7 @@ The footer section lists all internal and external links and important section a
 
 ![Screenshot of the Asset Store page](doc/highlights/asset-store.png)
 
-The Asset Store page showcases thumbnails of some 3D models featured in the product, with a link to access the full store within the product itself.
+The Asset Store page showcases thumbnails of some 3D models featured in the product, as well as interactible audio assets, with a link to access the full store within the product itself.
 
 ![Screenshot of the Pricing page](doc/highlights/pricing.png)
 
@@ -65,6 +65,8 @@ The Support page contains a contact form, with field validation and browser auto
     -   Transitions and animations to make interaction more pleasant
     -   Box shadows, gradients and backdrop filters to help with text readability and intuitive flow
     -   Media queries for responsive design
+
+An inline Javascript one-liner is used to initiate audio playback on the Asset Store page.
 
 The site uses no frameworks, and the only externally loaded resources are the fonts. WebP images are exported with lossy compression set to 90. All code and text files are formatted with [Prettier](https://prettier.io), with indentation using tabs (not spaces.) The CSS is split into sections with `#section` markers, which can be collapsed in most IDEs and code editors.
 
