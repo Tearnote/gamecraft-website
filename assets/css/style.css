@@ -905,6 +905,7 @@ footer > div > h3 {
 .preview-list > figure > button {
 	border: none;
 	background-color: #40ff5d;
+	transition: box-shadow 0.1s;
 }
 
 .preview-list > figure > button:hover {
