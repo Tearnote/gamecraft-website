@@ -110,18 +110,18 @@ The color palette needs to feel pleasant and welcoming, but also inspire confide
 
 Colors used are as follows:
 
--   Dark mode background: #080810
--   Dark mode text: #efeff8
--   Light mode background: #efeff8
--   Light mode text: #080810
--   Dark mode primary accent: #ffa73b
--   Dark mode primary accent (darker): #c77800
--   Dark mode secondary accent: #40ff5d
--   Dark mode secondary accent (darker): #00ca28
--   Light mode primary accent: #8c4500
--   Light mode primary accent (lighter): #c17131
--   Light mode secondary accent: #005e0c
--   Light mode secondary accent (lighter): #3f8c3a
+-   Dark mode background: `#080810`
+-   Dark mode text: `#efeff8`
+-   Light mode background: `#efeff8`
+-   Light mode text: `#080810`
+-   Dark mode primary accent: `#ffa73b`
+-   Dark mode primary accent (darker): `#c77800`
+-   Dark mode secondary accent: `#40ff5d`
+-   Dark mode secondary accent (darker): `#00ca28`
+-   Light mode primary accent: `#8c4500`
+-   Light mode primary accent (lighter): `#c17131`
+-   Light mode secondary accent: `#005e0c`
+-   Light mode secondary accent (lighter): `#3f8c3a`
 
 ![Color scheme swatch](swatch.png)
 
